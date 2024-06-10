@@ -1,3 +1,5 @@
+"use client";
+import { signIn } from "next-auth/react";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,7 +11,13 @@ export default function Home() {
         </p>  
       </div>
 
-      <button className="mt-8 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
+      <button 
+      onClick={() =>
+        signIn("spotify", {
+          callbackUrl: "http://localhost:3000",
+        })
+      }
+      className="mt-8 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
         Connect Spotify
       </button>
     </main>
