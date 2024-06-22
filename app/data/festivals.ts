@@ -1,5 +1,6 @@
-{
-    "Full Force Festival 2024": {
+export const festivals = [
+     {
+      "name": "Full Force Festival 2024",
       "url": "https://www.musicfestivalwizard.com/festivals/full-force-festival-2024/",
       "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2022/07/20220625-FullForce-BulletformyValentine-KirstenOtto-001-1-Editorial.jpg",
       "artists": [
@@ -82,7 +83,8 @@
         "ZOMBIEZ"
       ]
     },
-    "Hurricane Festival 2024": {
+     {
+      "name": "Hurricane Festival 2024",
         "url": "https://www.musicfestivalwizard.com/festivals/hurricane-festival-2024/",
         "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2018/09/Vito-Valentinetti-2015-Hurricane-90.jpg",
         "artists": [
@@ -100,7 +102,8 @@
           "The Offspring",
           "Turnstile"]
         },
-    "Southside Festival 2024": {
+     {
+      "name": "Southside Festival 2024",
         "url": "https://www.musicfestivalwizard.com/festivals/southside-festival-2024/",
     "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2022/06/Southside-Festival-Hero.webp",
     "artists": [
@@ -175,7 +178,8 @@
       "TURNSTILE"
     ]
   },
-  "Jazzopen Stuttgart 2024": {
+  {
+    "name": "Jazzopen Stuttgart 2024",
     "url": "https://www.musicfestivalwizard.com/festivals/jazzopen-festival-2024/",
     "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2023/02/Jazzopen-Festival-HP-scaled.jpg",
     "artists": [
@@ -198,7 +202,8 @@
       "Meute"
     ]
   },
-  "Lollapalooza Berlin 2024": {
+  {
+    "name": "Lollapalooza Berlin 2024",
     "url": "https://www.musicfestivalwizard.com/festivals/lollapalooza-berlin-2024/",
     "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2015/10/Lollapalooza_Logo.jpg",
     "artists": [
@@ -230,4 +235,4 @@
       "Von Wegen Lisbeth"
     ]
   }
-}
+]

@@ -3,6 +3,8 @@ import { signIn, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
 import { getPlaylist } from "./playlists";
 
+import { festivals } from './data/festivals';
+
 export default function Home() {
   const { data: session } = useSession();
   const [playlists, setPlaylists] = useState<[]>([]);
@@ -10,6 +12,8 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
 
   console.log(session)
+
+  console.log(festivals)
 
   useEffect(() => {
     const fetchPlaylists = async () => {
@@ -31,6 +35,7 @@ export default function Home() {
     fetchPlaylists();
   }, [session]);
 
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -40,7 +45,7 @@ export default function Home() {
       </div>
 
       <div>
-        <h1>Your Playlists</h1>
+        <h1>Festivals</h1>
 
         {loading &&
           <div>Loading...</div>
@@ -52,8 +57,13 @@ export default function Home() {
 
         {!error && !loading &&
           <ul>
-            {playlists.map((playlist: any) => (
+            {/* {playlists.map((playlist: any) => (
               <li key={playlist.id}>{playlist.name}</li>
+            ))} */}
+            {festivals.map((festival: any) => (
+              <a key={festival.name} href={festival.url} target="_blank">
+                <li>{festival.name}</li>
+              </a>
             ))}
           </ul>
         }
