@@ -1,7 +1,7 @@
 "use client";
 import { signIn, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
-import { getPlaylist } from "./playlists";
+import { createPlaylist, getPlaylist } from "./playlists";
 import { getArtistID } from "./artist";
 import { festivals } from './data/festivals';
 import { getTracks } from "./tracks";
@@ -126,13 +126,11 @@ export default function Home() {
       </div>
 
       <button
-        onClick={() =>
-          signIn("spotify", {
-            callbackUrl: "http://localhost:3000",
-          })
+        onClick={async () =>
+          {console.log(await createPlaylist(session, "The name of the festival"));}
         }
         className="mt-8 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
-        Connect Spotify
+        Create Empty Playlist
       </button>
     </main>
   );
