@@ -2,21 +2,16 @@
 import { signIn, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
 import { getPlaylist } from "./playlists";
-import { Artist, getArtistsID } from "./artist";
+import { getArtistID } from "./artist";
 import { festivals } from './data/festivals';
 
 export default function Home() {
   const { data: session } = useSession();
   const [playlists, setPlaylists] = useState<[]>([]);
-  const [artists, setArtistIds] = useState<Artist[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   console.log(session)
-
-  console.log(festivals)
-
-  console.log(artists)
 
   useEffect(() => {
     const fetchPlaylists = async () => {
@@ -38,9 +33,9 @@ export default function Home() {
     const fetchArtist = async () => {
       try {
         if (session) {
-          const response = await getArtistsID(session);
+          const response = await getArtistID(session, "Avril Lavigne");
           setError(null);
-          setArtistIds(response);
+          console.log(response);
         } else {
           throw new Error("No session available");
         }
@@ -50,10 +45,9 @@ export default function Home() {
         setLoading(false);
       }
     };
-    
+
     //fetchPlaylists();
     fetchArtist();
-  
   }, [session]);
   
 
