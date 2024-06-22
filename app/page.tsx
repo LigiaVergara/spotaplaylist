@@ -5,6 +5,7 @@ import { createPlaylist, getPlaylist } from "./playlists";
 import { getArtistID } from "./artist";
 import { festivals } from './data/festivals';
 import { getTracks } from "./tracks";
+import { postTracks } from "./trackstoplaylist";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -69,6 +70,39 @@ export default function Home() {
     };
     fetchTracks();
   }, [session]);
+
+  
+  async function createFestivalPlaylist(artistNames: string[], festivalName: string): Promise<void | PromiseLike<void>> {
+   // 1. create Empt Playlist 
+   const playlistId = await createPlaylist(session, festivalName);
+
+   console.log(playlistId);
+
+   const artistIds: string[] = [];
+   for (const name of artistNames) {
+     const id = await getArtistID(session, name);
+     if (id) {
+       artistIds.push(id);
+     }
+   }
+   
+   console.log('artists', artistIds[0], artistIds.length);
+   
+   // 3. top songs of each artist
+   
+   const trackUris: string[] = [];
+   for (const artistId of artistIds) {
+     const trackUri = await getTracks(session, artistId);
+     if (trackUri) {
+       trackUris.push(...trackUri);
+     }
+   }
+   
+   console.log(trackUris);
+   
+   // 4. add tracks to empty playlist
+   await postTracks(session, trackUris, playlistId);
+  }
   
 
   return (
@@ -102,13 +136,16 @@ export default function Home() {
             const remainingArtistsCount = festival.artists.length - topArtists.length;
 
             return (
-              <a 
-                key={festival.name} 
-                href={festival.url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="block p-6 max-w-sm bg-green-100 rounded-lg border border-green-300 shadow-md hover:bg-green-200 transition-colors"
-              >
+              // <a 
+              //   key={festival.name} 
+              //   href={festival.url} 
+              //   target="_blank" 
+              //   rel="noopener noreferrer" 
+              //   className="block p-6 max-w-sm bg-green-100 rounded-lg border border-green-300 shadow-md hover:bg-green-200 transition-colors"
+              // >
+              <div className="block p-6 max-w-sm bg-green-100 rounded-lg border border-green-300 shadow-md hover:bg-green-200 transition-colors" onClick={async () => await createFestivalPlaylist(festival.artists, festival.name)}>
+
+             
                 <h2 className="text-2xl font-bold text-green-900 mb-2">{festival.name}</h2>
                 <h3 className="text-lg font-semibold text-gray-800">Artists:</h3>
                 <ul className="list-disc list-inside ml-4 text-gray-700">
@@ -119,7 +156,8 @@ export default function Home() {
                     <li>+ {remainingArtistsCount} more</li>
                   )}
                 </ul>
-              </a>
+
+               </div>
             );
           })}
         </div>

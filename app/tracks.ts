@@ -17,11 +17,11 @@ export async function getTracks(
             headers: {
                 Authorization: `Bearer ${(session?.user as any).accessToken}`,
               },
-            }).then((res) => {
+            }).then(async (res) => {
         if (!res.ok) {
             throw new Error(`⁠Error fetching top tracks: ${res.statusText}`);
         }
-        return res.json();
+        return await res.json();
         });
 
         const tracks = response["tracks"].slice(0, topN);
