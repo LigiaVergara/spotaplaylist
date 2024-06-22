@@ -10,7 +10,7 @@ export async function getTracks(
         const session = await getSession(user);
 
         // Construct the URL for fetching top tracks of the artist
-        const url =`https://api.spotify.com/v1/artists/${artistID}/top-tracks?market=DE&limit=3`⁠;
+        const url =`https://api.spotify.com/v1/artists/${artistID}/top-tracks?market=DE&limit=3`;
 
         // Fetch the top tracks from Spotify API
         const response = await fetch(url, {
@@ -19,7 +19,7 @@ export async function getTracks(
               },
             }).then((res) => {
         if (!res.ok) {
-            throw new Error(`⁠Error fetching top tracks: ${res.statusText}`⁠);
+            throw new Error(`⁠Error fetching top tracks: ${res.statusText}`);
         }
         return res.json();
         });
