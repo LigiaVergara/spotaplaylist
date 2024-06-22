@@ -55,7 +55,7 @@ export default function Home() {
     const fetchTracks = async () => {
       try {
         if (session) {
-          const response = await getTracks(session, artists[0].id);
+          const response = await getTracks(session, "0p4nmQO2msCgU4IF37Wi3j");
           setError(null);
           setTopTracks(response);
         } else {
