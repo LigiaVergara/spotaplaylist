@@ -61,9 +61,19 @@ export default function Home() {
               <li key={playlist.id}>{playlist.name}</li>
             ))} */}
             {festivals.map((festival: any) => (
-              <a key={festival.name} href={festival.url} target="_blank">
-                <li>{festival.name}</li>
+              <li key={festival.name} className="mb-4">
+              <a href={festival.url} target="_blank" className="text-blue-500 underline">
+                {festival.name}
               </a>
+              <div>
+              </div>
+              <h2 className="mt-2 text-lg font-semibold">Artists:</h2>
+              <ul className="list-disc list-inside ml-4">
+                {festival.artists.map((artist: string, index: number) => (
+                  <li key={index}>{artist}</li>
+                ))}
+              </ul>
+            </li>
             ))}
           </ul>
         }
