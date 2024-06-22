@@ -83,7 +83,7 @@ export default function Home() {
                   <a href={festival.url} target="_blank" className="text-blue-500 underline">
                     {festival.name}
                   </a>
-                  <h2 className="mt-2 text-lg font-semibold">Top Artists:</h2>
+                  <h2 className="mt-2 text-lg font-semibold">Artists:</h2>
                   <ul className="list-disc list-inside ml-4">
                     {topArtists.map((artist: string, index: number) => (
                       <li key={index}>{artist}</li>
