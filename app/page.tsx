@@ -2,18 +2,21 @@
 import { signIn, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
 import { getPlaylist } from "./playlists";
-
+import { Artist, getArtistsID } from "./artist";
 import { festivals } from './data/festivals';
 
 export default function Home() {
   const { data: session } = useSession();
   const [playlists, setPlaylists] = useState<[]>([]);
+  const [artists, setArtistIds] = useState<Artist[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   console.log(session)
 
   console.log(festivals)
+
+  console.log(artists)
 
   useEffect(() => {
     const fetchPlaylists = async () => {
@@ -32,9 +35,27 @@ export default function Home() {
       }
     };
 
-    fetchPlaylists();
+    const fetchArtist = async () => {
+      try {
+        if (session) {
+          const response = await getArtistsID(session);
+          setError(null);
+          setArtistIds(response);
+        } else {
+          throw new Error("No session available");
+        }
+      } catch (error: any) {
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    //fetchPlaylists();
+    fetchArtist();
+  
   }, [session]);
-
+  
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -55,18 +76,23 @@ export default function Home() {
           <div>Error: {error}</div>
         }
 
-        {!error && !loading &&
+       
           <ul>
-            {/* {playlists.map((playlist: any) => (
-              <li key={playlist.id}>{playlist.name}</li>
-            ))} */}
-            {festivals.map((festival: any) => (
-              <a key={festival.name} href={festival.url} target="_blank">
-                <li>{festival.name}</li>
+          {festivals.map((festival: any) => (
+            <li key={festival.name}>
+              <a href={festival.url} target="_blank" rel="noopener noreferrer">
+                {festival.name}
               </a>
-            ))}
+              {artists.length > 0 && (
+                <ul>
+                  {artists.map((a) => (
+                    <li key={a.id}>{a.name + ", " + a.id}</li>
+                  ))}
+                </ul>
+              )}
+              </li>
+          ))}
           </ul>
-        }
       </div>
 
       <button
