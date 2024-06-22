@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { getPlaylist } from "./playlists";
 import { Artist, getArtistsID } from "./artist";
 import { festivals } from './data/festivals';
+import { getTracks } from "./tracks";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -11,12 +12,15 @@ export default function Home() {
   const [artists, setArtistIds] = useState<Artist[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [topTracks, setTopTracks] = useState<[]>([]);
 
   console.log(session)
 
   console.log(festivals)
 
   console.log(artists)
+
+  console.log(topTracks)
 
   useEffect(() => {
     const fetchPlaylists = async () => {
@@ -53,7 +57,22 @@ export default function Home() {
     
     //fetchPlaylists();
     fetchArtist();
-  
+    const fetchTracks = async () => {
+      try {
+        if (session) {
+          const response = await getTracks(session, artists[0].id);
+          setError(null);
+          setTopTracks(response);
+        } else {
+          throw new Error("No session available");
+        }
+      } catch (error: any) {
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchTracks();
   }, [session]);
   
 
