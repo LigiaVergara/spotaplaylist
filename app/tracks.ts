@@ -27,7 +27,7 @@ export async function getTracks(
         const tracks = response["tracks"].slice(0, topN);
 
         return tracks.map((track: any) => {
-        return track["id"];
+        return track["uri"];
         });
     } catch (error) {
         console.error("Failed to get Top Tracks:", error);
