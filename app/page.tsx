@@ -58,51 +58,57 @@ export default function Home() {
   
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Spot a Playlist
+<main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gray-100">
+  <div className="z-10 w-full max-w-5xl flex flex-col items-center">
+    <div className="w-full flex justify-center mb-8">
+      <div className="flex flex-col items-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white p-6 rounded-lg shadow-lg">
+        <h1 className="text-4xl font-bold mb-2">Spot a Playlist</h1>
+        <p className="text-lg mb-4">
+          Discover your next favorite playlist based on a festival around you!
         </p>
+        <button 
+          onClick={() => signIn("spotify", { callbackUrl: "http://localhost:3000" })} 
+          className="bg-white text-green-600 font-semibold px-4 py-2 rounded-md hover:bg-gray-100 shadow-md"
+        >
+          Connect Spotify
+        </button>
       </div>
+    </div>
+  </div>
 
       <div>
-        <h1>Festivals</h1>
+        <h1 className="text-3xl font-bold text-green-900 mb-6">Festivals</h1>
 
-        {loading && <div>Loading...</div>}
+        {loading && <div className="text-gray-800">Loading...</div>}
+        {error && <div className="text-red-500">Error: {error}</div>}
 
-        {error && <div>Error: {error}</div>}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {festivals.map((festival: any) => {
+            const topArtists = festival.artists.slice(0, 5);
+            const remainingArtistsCount = festival.artists.length - topArtists.length;
 
-       
-          <ul>
-            {festivals.map((festival: any) => {
-              const topArtists = festival.artists.slice(0, 5);
-              const remainingArtistsCount = festival.artists.length - topArtists.length;
-
-              return (
-                <li key={festival.name} className="mb-6">
-                  <a href={festival.url} target="_blank" className="text-blue-500 underline">
-                    {festival.name}
-                  </a>
-                  <h2 className="mt-2 text-lg font-semibold">Artists:</h2>
-                  <ul className="list-disc list-inside ml-4">
-                    {topArtists.map((artist: string, index: number) => (
-                      <li key={index}>{artist}</li>
-                    ))}
-                    {remainingArtistsCount > 0 && (
-                      <li>+ {remainingArtistsCount} more</li>
-                    )}
-                  </ul>
-                  {artists.length > 0 && (
-                <ul>
-                  {artists.map((a) => (
-                    <li key={a.id}>{a.name + ", " + a.id}</li>
+            return (
+              <a 
+                key={festival.name} 
+                href={festival.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block p-6 max-w-sm bg-green-100 rounded-lg border border-green-300 shadow-md hover:bg-green-200 transition-colors"
+              >
+                <h2 className="text-2xl font-bold text-green-900 mb-2">{festival.name}</h2>
+                <h3 className="text-lg font-semibold text-gray-800">Artists:</h3>
+                <ul className="list-disc list-inside ml-4 text-gray-700">
+                  {topArtists.map((artist: string, index: number) => (
+                    <li key={index}>{artist}</li>
                   ))}
+                  {remainingArtistsCount > 0 && (
+                    <li>+ {remainingArtistsCount} more</li>
+                  )}
                 </ul>
-              )}
-                </li>
-              );
-            })}
-          </ul>
+              </a>
+            );
+          })}
+        </div>
       </div>
 
       <button
