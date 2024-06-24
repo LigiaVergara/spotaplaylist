@@ -1,3 +1,5 @@
+Spot a playlist is an interactive website that helps you prepare for music festivals by creating a playlist based on the lineup!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
