@@ -79,7 +79,11 @@ export default function Home() {
       setPlaylistCreatedMessage(`Playlist "${playlistName}" created successfully!`);
     } catch (error) {
       console.error('Error creating playlist:', error);
-      setPlaylistCreatedMessage(`Failed to create playlist: ${error.message}`);
+      if (error instanceof Error) {
+        setPlaylistCreatedMessage(`Failed to create playlist: ${error.message}`);
+      } else {
+        setPlaylistCreatedMessage('Failed to create playlist: An unknown error occurred');
+      }
     }
   };
 
