@@ -44,12 +44,18 @@ export default function Home() {
             <p className="text-lg mb-4">
               Discover your next favorite playlist based on a festival around you!
             </p>
+            {session ? (
+               <p className="text-green-600 font-semibold px-4 py-2 rounded-md shadow-md">
+               Connected to Spotify
+             </p>
+           ) : (
             <button
               onClick={() => signIn("spotify", { callbackUrl: "http://localhost:3000" })}
               className="bg-white text-green-600 font-semibold px-4 py-2 rounded-md hover:bg-gray-100 shadow-md"
             >
               Connect Spotify
             </button>
+            )}
           </div>
         </div>
       </div>
