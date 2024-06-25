@@ -3,6 +3,7 @@ export const festivals = [
       "name": "Full Force Festival 2024",
       "url": "https://www.musicfestivalwizard.com/festivals/full-force-festival-2024/",
       "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2022/07/20220625-FullForce-BulletformyValentine-KirstenOtto-001-1-Editorial.jpg",
+      "country": "Germany",
       "artists": [
         "ALIEN WEAPONRY",
         "ALLIGATOAH",
@@ -87,6 +88,7 @@ export const festivals = [
       "name": "Hurricane Festival 2024",
         "url": "https://www.musicfestivalwizard.com/festivals/hurricane-festival-2024/",
         "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2018/09/Vito-Valentinetti-2015-Hurricane-90.jpg",
+        "country": "Germany",
         "artists": [
           "Avril Lavigne",
           "Bombay Bicycle Club",
@@ -106,6 +108,7 @@ export const festivals = [
       "name": "Southside Festival 2024",
         "url": "https://www.musicfestivalwizard.com/festivals/southside-festival-2024/",
     "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2022/06/Southside-Festival-Hero.webp",
+    "country": "France",
     "artists": [
       "$OHO BANI",
       "AARON",
@@ -182,6 +185,7 @@ export const festivals = [
     "name": "Jazzopen Stuttgart 2024",
     "url": "https://www.musicfestivalwizard.com/festivals/jazzopen-festival-2024/",
     "image": "https://www.musicfestivalwizard.com/wp-content/uploads/2023/02/Jazzopen-Festival-HP-scaled.jpg",
+    "country": "Germany",
     "artists": [
       "Lawrence",
       "Lettuce",

@@ -1,4 +1,4 @@
-export const festivals = [
+export const festivals_eur = [
   {
     "Vainstream 2024": {
         "name": "Vainstream 2024",
@@ -7,7 +7,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1477973-vainstream/id/41512892-vainstream-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Dropkick Murphys",
             "The Hives",
             "Parkway Drive",
@@ -68,7 +68,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/48286-splash/id/41832349-splash-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "21 Savage",
             "Playboi Carti",
             "Trippie Redd",
@@ -166,7 +166,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/48271-summerjam/id/41482459-summerjam-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Burna Boy",
             "Collie Buddz",
             "Steel Pulse",
@@ -201,7 +201,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3629246-save-the-core/id/41613282-save-the-core-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Bad Religion",
             "Suicidal Tendencies",
             "Millencolin",
@@ -219,7 +219,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1556-melt/id/41549849-melt-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "James Blake",
             "Bonobo",
             "Skepta",
@@ -334,7 +334,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/87901-deichbrand/id/41508799-deichbrand-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Kings of Leon",
             "Peter Fox",
             "Alligatoah",
@@ -363,7 +363,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/281623-habitat/id/41563479-habitat-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Extrawelt",
             "DJ Heartstring",
             "Anja Schneider",
@@ -404,7 +404,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3429601-greenfields-open-air/id/41667567-greenfields-open-air-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Paul Kalkbrenner"
         ]
     },
@@ -415,7 +415,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/33976-amphi/id/41426995-amphi-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Front Line Assembly",
             "And One",
             "Blutengel",
@@ -440,7 +440,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/143931-juicy-beats/id/41535453-juicy-beats-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Cro",
             "Bukahara",
             "Paula Hartmann",
@@ -459,7 +459,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2970769-about-you-pangea/id/41490506-about-you-pangea-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Milky Chance",
             "Nina Chuba",
             "southstar",
@@ -486,7 +486,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3637382-sonnemondsternexxvi/id/41681502-sonnemondsternexxvi-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Calvin Harris",
             "Fisher",
             "Charlotte de Witte",
@@ -505,7 +505,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/981-mera-luna/id/41374595-mera-luna-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Front 242",
             "Oomph!",
             "London After Midnight",
@@ -539,7 +539,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1014553-summer-breeze/id/41363353-summer-breeze-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Motionless In White",
             "Flogging Molly",
             "Architects",
@@ -571,7 +571,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/74056-reload/id/41618357-reloadfestival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Korn",
             "Motionless In White",
             "Dragonforce",
@@ -615,7 +615,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1492-highfield/id/41424143-highfield-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "The Kooks",
             "Rise Against",
             "Macklemore",
@@ -647,7 +647,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/222781-ms-dockville/id/41563495-ms-dockville-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "The Vaccines",
             "Ashnikko",
             "Lime Cordiale",
@@ -712,7 +712,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3666661-off-days/id/41935147-off-days-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "R\u00f3is\u00edn Murphy",
             "Peaches"
         ]
@@ -724,7 +724,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3305963-superbloom/id/41784974-superbloom-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Milky Chance",
             "Loyle Carner",
             "Loreen",
@@ -738,7 +738,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/318-reeperbahn/id/41810453-reeperbahn-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Yot Club",
             "Trentem\u00f8ller",
             "The Smile",
@@ -890,7 +890,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/883369-keep-it-low/id/41631242-keep-it-low-festival-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Russian Circles",
             "REZN",
             "Messa",
@@ -904,7 +904,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3656029-rollingstone-beach/id/41843219-rollingstone-beach-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Bright Eyes",
             "Jake Bugg",
             "Jason Isbell and the 400 Unit",
@@ -927,7 +927,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3636055-cold-hearted-dresden/id/41670276-cold-hearted-dresden-2024",
         "country": "Germany",
         "description": "",
-        "lineup": [
+        "artists": [
             "Twin Tribes",
             "Linea Aspera",
             "ULTRA SUNN",
@@ -945,7 +945,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1837569-noches-del-botanico/id/41888133-noches-del-botnico-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Birdy",
             "James Vincent McMorrow",
             "Sammy Rae & the Friends",
@@ -959,7 +959,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3628508-noches-del-botanico-at-jardines-del-botanico/id/41607404-noches-del-botanico-at-jardines-del-botanico-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Queens of the Stone Age"
         ]
     },
@@ -970,7 +970,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2313674-holika/id/41558093-holika-festival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": []
+        "artists": []
     },
     "Alma 2024": {
         "name": "Alma 2024",
@@ -979,7 +979,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1530794-alma/id/41763074-alma-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Cat Power"
         ]
     },
@@ -990,7 +990,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/443788-big-sound/id/41610204-big-sound-festival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Myke Towers",
             "QUEVEDO",
             "Juan Magan",
@@ -1017,7 +1017,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/739019-vida/id/41570260-vida-festival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Vance Joy",
             "M.I.A.",
             "James Blake",
@@ -1073,7 +1073,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1833574-rio-babel/id/41629183-ro-babel-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Juanes",
             "Die Antwoord",
             "La Oreja de Van Gogh",
@@ -1103,7 +1103,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3547261-les-nits-de-barcelona/id/41665521-les-nits-de-barcelona-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Passenger",
             "Mika",
             "Simple Minds",
@@ -1123,7 +1123,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3625727-gozo/id/41583418-gozo-festival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Ed Sheeran",
             "Milky Chance",
             "Mon Laferte",
@@ -1139,7 +1139,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/234903-cruilla/id/41551567-festival-crulla-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Avril Lavigne",
             "The Smashing Pumpkins",
             "The Kooks",
@@ -1205,7 +1205,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/6331-bilbao-bbk-live/id/41571968-bilbao-bbk-live-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Parcels",
             "Kiasmos",
             "Maria Jos\u00e9 Llergo",
@@ -1219,7 +1219,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3666849-de-playa-de-reggaeton-rbf/id/41883104-festival-de-playa-de-reggaeton-rbf-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Anuel AA",
             "El Alfa",
             "Maria Becerra",
@@ -1234,7 +1234,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/155531-internacional-de-benicassim-fib/id/41662897-festival-internacional-de-benicssim--fib-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Black Eyed Peas",
             "Milky Chance",
             "Royal Blood",
@@ -1261,7 +1261,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1757984-tsunami-xixon/id/41560161-tsunami-xixn-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Scorpions",
             "Royal Blood",
             "Bad Religion",
@@ -1292,7 +1292,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1600904-brunch-electronik/id/41783367-brunch-electronik-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "R\u00f6yksopp",
             "Dom Dolla",
             "Vintage Culture",
@@ -1307,7 +1307,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3487496-brunch/id/41949963-brunch-festival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "The Blaze",
             "WhoMadeWho",
             "Jon & the Rabbit"
@@ -1320,7 +1320,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3664630-kalorama-madrid/id/41916787-kalorama-madrid-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sam Smith",
             "Death Cab for Cutie",
             "Massive Attack",
@@ -1343,7 +1343,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/237843-b/id/41455714-bfestival-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Cruz Cafun\u00e9",
             "sen senra",
             "El Mat\u00f3 a un Polic\u00eda Motorizado",
@@ -1376,7 +1376,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2928889-madrid-salvaje/id/41612953-festival-madrid-salvaje-2024",
         "country": "Spain",
         "description": "",
-        "lineup": [
+        "artists": [
             "Fernandocosta",
             "Israel B",
             "Lia Kali",
@@ -1393,7 +1393,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1851759-midsummer-prog/id/41674546-midsummer-prog-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Karnivool",
             "Plini",
             "Arena",
@@ -1407,7 +1407,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/79961-down-the-rabbit-hole/id/41574779-down-the-rabbit-hole-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Jungle",
             "Declan McKenna",
             "The Gaslight Anthem",
@@ -1431,7 +1431,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/49256-bospop/id/41613227-bospop-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Gogol Bordello",
             "John Fogerty",
             "Robert Jon and the Wreck",
@@ -1445,7 +1445,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/32691-north-sea-jazz/id/41697248-north-sea-jazz-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sting",
             "Sampha",
             "Noname",
@@ -1493,7 +1493,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3300897-7fest/id/41775889-7fest-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Tyla",
             "Frenna",
             "Broederliefde",
@@ -1533,7 +1533,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/689434-dekmantel/id/41701627-dekmantel-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Bicep",
             "bar italia",
             "Bnnyhunna"
@@ -1546,7 +1546,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/75721-nirwana-tuinfeest/id/41644472-nirwana-tuinfeest-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "The Vaccines",
             "Selah Sue",
             "Kula Shaker",
@@ -1574,7 +1574,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1197843-dynamo-metal-fest/id/41617818-dynamo-metal-fest-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Clutch",
             "Dimmu Borgir",
             "Soen",
@@ -1590,7 +1590,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1480353-complexity-fest/id/41627215-complexity-fest-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Plini",
             "Night Verses",
             "Sigh",
@@ -1606,7 +1606,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2952579-loose-ends/id/41803871-loose-ends-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "NewDad",
             "Ghostwoman",
             "Ditz",
@@ -1625,7 +1625,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3605944-morgan-wallen-one-night-at-a-time/id/41942200-morgan-wallen-one-night-at-a-time-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Morgan Wallen"
         ]
     },
@@ -1636,7 +1636,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1959219-rotterdam-rave/id/41631126-rotterdam-rave-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Nico Moreno",
             "Trym",
             "Funk Tribu",
@@ -1666,7 +1666,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/124031-baroeg-open-air/id/41414667-baroeg-open-air-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Ill Ni\u00f1o",
             "Combichrist",
             "Black Sun Empire",
@@ -1699,7 +1699,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1698479-come-as-you-are/id/41744954-come-as-you-are-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Mudhoney",
             "Buffalo Tom",
             "Bettie Serveert",
@@ -1718,7 +1718,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2423409-soulcrusher/id/41818971-soulcrusher-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "HEALTH",
             "Zeal and Ardor",
             "Gost",
@@ -1749,7 +1749,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1639814-amf/id/41846389-amf-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Ti\u00ebsto",
             "Martin Garrix",
             "Showtek",
@@ -1767,7 +1767,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1134063-ramblin-roots/id/41849306-ramblin-roots-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "The White Buffalo",
             "Uncle Lucius",
             "Joe Pug",
@@ -1788,7 +1788,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3166-london-calling/id/41980281-london-calling-festival-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "STRFKR",
             "Drugdealer",
             "Gizmo Varillas",
@@ -1806,7 +1806,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3528519-rock-circus/id/41600549-the-rock-circus-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sepultura",
             "Obituary",
             "Jinjer",
@@ -1821,7 +1821,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3652883-sepulfest/id/41814636-sepulfest-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sepultura",
             "Obituary",
             "Jinjer",
@@ -1838,7 +1838,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/32966-le-guess-who/id/41942982-le-guess-who-2024",
         "country": "The Netherlands",
         "description": "",
-        "lineup": [
+        "artists": [
             "Darkside",
             "Meshell Ndegeocello",
             "Tropical Fuck Storm",
@@ -1939,7 +1939,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1552739-subkultfestivalen/id/41646465-subkultfestivalen-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Dunderpatrullen",
             "Mimikry",
             "Sturm Cafe",
@@ -1956,7 +1956,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1725649-subkult/id/41751170-subkult-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "VNV Nation",
             "Waveshaper",
             "S.P.O.C.K",
@@ -1981,7 +1981,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1040308-sthlm-fields/id/41771058-sthlm-fields-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Astrid S"
         ]
     },
@@ -1992,7 +1992,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/40141-clandestino/id/41607247-clandestino-festival-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Jos\u00e9 Gonz\u00e1lez",
             "Slauson Malone 1",
             "BITOI"
@@ -2005,7 +2005,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3499924-vi-som-alskar-90-00talet-stockholm/id/41501578-vi-som-lskar-90--00talet--stockholm-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Haddaway",
             "La Bouche",
             "DJ Sammy",
@@ -2028,7 +2028,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3513720-south-ocean/id/41600652-south-ocean-festival-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Phoenix",
             "The Cardigans",
             "Viagra Boys",
@@ -2050,7 +2050,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3499925-vi-som-alskar-90-00talet-gothenburg/id/41501580-vi-som-lskar-90--00talet--gothenburg-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Haddaway",
             "La Bouche",
             "DJ Sammy",
@@ -2073,7 +2073,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3664386-gothenburg-rock-riot/id/41894243-gothenburg-rock-riot-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Nazareth",
             "SUN Brutal Pop"
         ]
@@ -2085,7 +2085,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3651934-bruce-springsteen-and-the-e-street-band/id/41807714-bruce-springsteen-and-the-e-street-band-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Bruce Springsteen"
         ]
     },
@@ -2096,7 +2096,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3614964-vi-som-alskar-90-00talet-malmo/id/41501582-vi-som-lskar-90--00talet--malm-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Haddaway",
             "La Bouche",
             "DJ Sammy",
@@ -2119,7 +2119,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/55051-rock-the-park/id/41775597-rock-the-park-festival-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Myrkur",
             "SYLVAINE",
             "Dark Tranquility",
@@ -2133,7 +2133,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3508956-tradgarden/id/41810613-trdgrden-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Tyga",
             "Omar Rudberg"
         ]
@@ -2145,7 +2145,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3438394-almost-a/id/41925381-almost-a-festival-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Jos\u00e9 Gonz\u00e1lez"
         ]
     },
@@ -2156,7 +2156,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/140681-goteborgs-kulturkalas/id/41968907-gteborgs-kulturkalas-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Loreen"
         ]
     },
@@ -2167,7 +2167,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3639386-beat-butchers-40-ar/id/41696268-beat-butchers-40-r-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Coca Carola",
             "Kottgrottorna",
             "Krymplings",
@@ -2197,7 +2197,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3650009-lulea-rockfest/id/41790576-lule-rockfest-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Imminence",
             "Raised Fist",
             "Corroded",
@@ -2211,7 +2211,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1490418-progressive-circus/id/41905628-progressive-circus-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Soen",
             "Ozric Tentacles",
             "Moon Safari",
@@ -2228,7 +2228,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3587998-jungfrukallan/id/41964232-jungfrukllan-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "Stuzzi",
             "Yaeger",
             "Svart Rid\u00e5",
@@ -2242,7 +2242,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3620063-human-league-generations/id/41539058-the-human-league---generations-2024",
         "country": "Sweden",
         "description": "",
-        "lineup": [
+        "artists": [
             "The Human League"
         ]
     },
@@ -2253,7 +2253,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1488-hellfest/id/41572049-hellfest-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Metallica",
             "Dropkick Murphys",
             "Neck Deep",
@@ -2269,7 +2269,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/7486-solidays/id/41601422-solidays-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sam Smith",
             "Martin Garrix",
             "Diplo",
@@ -2318,7 +2318,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3625939-solidays-pass-samedi/id/41584982-solidays--pass-samedi-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Martin Garrix",
             "Diplo",
             "PLK",
@@ -2336,7 +2336,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1505-beauregard/id/41547421-beauregard-festival-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "David Guetta",
             "Bring Me The Horizon",
             "Zara Larsson",
@@ -2387,7 +2387,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3282158-planer-fest/id/41725843-planer-fest-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Eluveitie",
             "Beast In Black",
             "Igorrr",
@@ -2411,7 +2411,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2340034-jardin-sonore/id/41532621-festival-jardin-sonore-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Queens of the Stone Age",
             "Khruangbin",
             "Marc Rebillet",
@@ -2426,7 +2426,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/2210119-les-deferlantes-sud-de-france/id/41631936-les-dferlantes-sud-de-france-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Sum 41",
             "Macklemore",
             "The Prodigy",
@@ -2463,7 +2463,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3571895-francofolies-la-rochelle/id/41646102-francofolies-la-rochelle-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Phoenix",
             "Sting",
             "Charlotte Cardin",
@@ -2488,7 +2488,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/778454-peacock-society/id/41957523-festival-the-peacock-society-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Skrillex"
         ]
     },
@@ -2499,7 +2499,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/90516-de-carcassonne/id/41584082-festival-de-carcassonne-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Scorpions"
         ]
     },
@@ -2510,7 +2510,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/1052163-foreztival/id/41577705-foreztival-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "PLK",
             "Kid Francescoli",
             "Pomme",
@@ -2526,7 +2526,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/728009-sylak-open-air/id/41725842-sylak-open-air-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Behemoth",
             "Converge",
             "Cancer Bats",
@@ -2544,7 +2544,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3625965-fete-du-bruit-dans-landerneau-2024-forfait-3-jours/id/41585368-festival-fete-du-bruit-dans-landerneau-2024--forfait-3-jours-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Kasabian",
             "Josman",
             "Louise Attaque",
@@ -2559,7 +2559,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/109851-cabaret-vert/id/41546752-festival-cabaret-vert-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Queens of the Stone Age",
             "Neil Frances",
             "Flogging Molly",
@@ -2581,7 +2581,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/119576-les-plages-electroniques/id/41706623-les-plages-electroniques-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Kaytranada",
             "Fisher",
             "Paul Kalkbrenner",
@@ -2606,7 +2606,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/121781-woodstower/id/41585582-woodstower-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Booba",
             "Hamza",
             "Nina Kraviz",
@@ -2622,7 +2622,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/48421-jazz-a-la-villette/id/41967358-festival-jazz--la-villette-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Tinariwen",
             "Knower"
         ]
@@ -2634,7 +2634,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/176596-delta/id/41628695-delta-festival-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Justice",
             "Caravan Palace",
             "Jain",
@@ -2660,7 +2660,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3467740-rave-park/id/41932073-rave-park-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Niska",
             "GAZO",
             "FAVE",
@@ -2676,7 +2676,7 @@ export const festivals = [
         "url": "https://www.songkick.com/festivals/3647023-boomin-fest-nantes/id/41761379-boomin-fest--nantes-2024",
         "country": "France",
         "description": "",
-        "lineup": [
+        "artists": [
             "Zola",
             "Koba LaD"
         ]

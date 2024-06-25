@@ -5,9 +5,25 @@ import { getArtistID } from "./artist";
 import { festivals } from './data/festivals';
 import { getTracks } from "./tracks";
 import { postTracks } from "./trackstoplaylist";
+import { festivals_eur } from './data/festivals_eur';
+import { useState, useEffect } from 'react';
+
 
 export default function Home() {
   const { data: session } = useSession();
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null); // State for selected country
+  const [uniqueCountries, setUniqueCountries] = useState<string[]>([]); 
+
+  useEffect(() => {
+    // Extract unique countries from festivals array
+    const countriesSet = new Set(festivals.map((festival: any) => festival.country));
+    const countriesArray = Array.from(countriesSet);
+    setUniqueCountries(countriesArray);
+  }, []);
+
+  const handleCountryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedCountry(event.target.value);
+  };
 
   async function createFestivalPlaylist(artistNames: string[], festivalName: string): Promise<void | PromiseLike<void>> {
     const playlistId = await createEmptyPlaylist(session, festivalName);
@@ -59,6 +75,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Country selection dropdown */}
+      <div className="mb-8">
+        <label htmlFor="countrySelect" className="block text-lg font-semibold mb-2">
+          Select Country:
+        </label>
+        <select
+          id="countrySelect"
+          value={selectedCountry}
+          onChange={handleCountryChange}
+          className="bg-white border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+        >
+          <option value="">All Countries</option>
+          {uniqueCountries.map((country: string, index: number) => (
+            <option key={index} value={country}>
+              {country}
+            </option>
+          ))}
+        </select>
+      </div>
+
+
       {session &&
 
         <div>
@@ -66,6 +104,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {festivals.map((festival: any, index: number) => {
+              if (selectedCountry && festival.country !== selectedCountry) {
+                return null; // Skip rendering if country doesn't match
+              } 
               const topArtists = festival.artists.slice(0, 5);
               const remainingArtistsCount = festival.artists.length - topArtists.length;
 
