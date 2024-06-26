@@ -96,7 +96,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl flex flex-col items-center">
         <div className="w-full flex justify-center mb-8">
           <div className="flex flex-col items-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white p-6 rounded-lg shadow-lg">
-            <h1 className="text-4xl font-bold mb-2">Spot a Playlist</h1>
+            <img src="/Spotaplaylist.png" alt="Spot a Playlist" className="mb-4 w-full max-w-md h-auto" />
             <p className="text-lg mb-4">
               Discover your next favorite playlist based on a festival around you!
             </p>
