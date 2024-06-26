@@ -14,7 +14,9 @@ export default function Home() {
   const [topN, setTopN] = useState<number>(1);
   const [playlistName, setPlaylistName] = useState<string>("");
   const [selectedPlaylistIndex, setSelectedPlaylistIndex] = useState<number | null>(null);
-  const [playlistCreatedMessage, setPlaylistCreatedMessage] = useState<string | null>(null); // State for success message
+  const [playlistCreatedMessage, setPlaylistCreatedMessage] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState<boolean>(false); 
+
 
   useEffect(() => {
     // Extract unique countries from festivals array
@@ -44,7 +46,9 @@ export default function Home() {
   const handleCreatePlaylist = async () => {
     if (selectedPlaylistIndex !== null) {
       const festival = festivals[selectedPlaylistIndex];
+      setIsLoading(true);
       await createFestivalPlaylist(festival.artists, festival.name);
+      setIsLoading(false);
       // Optionally reset selectedPlaylistIndex after creation
       setSelectedPlaylistIndex(null);
     }
@@ -211,6 +215,11 @@ export default function Home() {
                 >
                   Create Playlist
                 </button>
+              </div>
+            )}
+            {isLoading && (
+              <div className="mt-4 p-4 bg-blue-200 text-blue-900 rounded-md shadow-md">
+                Creating playlist, please wait...
               </div>
             )}
 
