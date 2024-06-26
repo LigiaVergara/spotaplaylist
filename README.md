@@ -1,4 +1,4 @@
-<img src="/Spotaplaylist.png" alt="Spot a Playlist" className="mb-4 w-full max-w-md h-auto" />
+<img src="public/Spotaplaylist.png" alt="Spot a Playlist" className="mb-4 w-full max-w-md h-auto" />
 
 Spot a playlist is an interactive website that helps you prepare for music festivals by creating a playlist based on the lineup!
 
