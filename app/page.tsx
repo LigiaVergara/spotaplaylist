@@ -2,7 +2,7 @@
 import { signIn, useSession } from "next-auth/react";
 import { createPlaylist as createEmptyPlaylist } from "./playlists";
 import { getArtistID } from "./artist";
-import { festivals } from './data/festivals';
+import { jambase_festivals } from './data/jambase_festivals2';
 import { getTracks } from "./tracks";
 import { postTracks } from "./trackstoplaylist";
 import { useState, useEffect } from 'react';
@@ -20,7 +20,7 @@ export default function Home() {
 
   useEffect(() => {
     // Extract unique countries from festivals array
-    const countriesSet = new Set(festivals.map((festival: any) => festival.country));
+    const countriesSet = new Set(jambase_festivals.map((festival: any) => festival.country));
     const countriesArray = Array.from(countriesSet);
     setUniqueCountries(countriesArray);
   }, []);
@@ -36,7 +36,7 @@ export default function Home() {
 
   const handlePlaylistSelection = (index: number) => {
     setSelectedPlaylistIndex(index === selectedPlaylistIndex ? null : index);
-    setPlaylistName(festivals[index].name); // Set playlist name to festival name
+    setPlaylistName(jambase_festivals[index].name); // Set playlist name to festival name
   };
 
   const handlePlaylistNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -45,7 +45,7 @@ export default function Home() {
 
   const handleCreatePlaylist = async () => {
     if (selectedPlaylistIndex !== null) {
-      const festival = festivals[selectedPlaylistIndex];
+      const festival = jambase_festivals[selectedPlaylistIndex];
       setIsLoading(true);
       await createFestivalPlaylist(festival.artists, festival.name);
       setIsLoading(false);
@@ -163,7 +163,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold text-green-900 mb-6">Festivals</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {festivals.map((festival: any, index: number) => {
+              {jambase_festivals.map((festival: any, index: number) => {
                 if (selectedCountry && festival.country !== selectedCountry) {
                   return null; // Skip rendering if country doesn't match
                 }
