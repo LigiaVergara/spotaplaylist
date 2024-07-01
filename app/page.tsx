@@ -12,12 +12,12 @@ export default function Home() {
   const [selectedCountry, setSelectedCountry] = useState<string>(""); // Initialize with an empty string
   const [uniqueCountries, setUniqueCountries] = useState<string[]>([]);
   const [topN, setTopN] = useState<number>(1);
-  const [SearchQuery, setSearchQuery] = useState<string>("");
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const [playlistName, setPlaylistName] = useState<string>("");
   const [selectedPlaylistIndex, setSelectedPlaylistIndex] = useState<number | null>(null);
   const [playlistCreatedMessage, setPlaylistCreatedMessage] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(false); 
-
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0]); // Default to today
 
   useEffect(() => {
     // Extract unique countries from festivals array
@@ -37,11 +37,15 @@ export default function Home() {
 
   const handleSearchQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
-  }
+  };
+
+  const handleDateChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedDate(event.target.value);
+  };
 
   const handlePlaylistSelection = (index: number) => {
     setSelectedPlaylistIndex(index === selectedPlaylistIndex ? null : index);
-    setPlaylistName(jambase_festivals[index].name); // Set playlist name to festival name
+    setPlaylistName(filteredFestivals[index].name); // Set playlist name to the filtered festival name
   };
 
   const handlePlaylistNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -50,7 +54,7 @@ export default function Home() {
 
   const handleCreatePlaylist = async () => {
     if (selectedPlaylistIndex !== null) {
-      const festival = jambase_festivals[selectedPlaylistIndex];
+      const festival = filteredFestivals[selectedPlaylistIndex];
       setIsLoading(true);
       await createFestivalPlaylist(festival.artists, festival.name);
       setIsLoading(false);
@@ -62,7 +66,7 @@ export default function Home() {
   async function createFestivalPlaylist(artistNames: string[], festivalName: string): Promise<void | PromiseLike<void>> {
     try {
       const playlistId = await createEmptyPlaylist(session, playlistName);
-  
+
       // get artist ids
       const artistIds: string[] = [];
       for (const name of artistNames) {
@@ -71,7 +75,7 @@ export default function Home() {
           artistIds.push(id);
         }
       }
-  
+
       // get track uris
       const trackUris: string[] = [];
       for (const artistId of artistIds) {
@@ -80,10 +84,10 @@ export default function Home() {
           trackUris.push(...trackUri);
         }
       }
-  
+
       // add tracks to empty playlist
       await postTracks(session, trackUris, playlistId);
-  
+
       // Playlist created message
       setPlaylistCreatedMessage(`Playlist "${playlistName}" created successfully!`);
     } catch (error) {
@@ -95,6 +99,14 @@ export default function Home() {
       }
     }
   };
+
+  const filteredFestivals = jambase_festivals.filter((festival: any) => {
+    const festivalDate = new Date(festival.date.slice(0, 4) + '-' + festival.date.slice(4, 6) + '-' + festival.date.slice(6, 8));
+    const selectedDateObj = new Date(selectedDate);
+    return festival.name.toLowerCase().includes(searchQuery.toLowerCase()) &&
+           (!selectedCountry || festival.country === selectedCountry) &&
+           festivalDate >= selectedDateObj;
+  });
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gray-100">
@@ -156,6 +168,30 @@ export default function Home() {
                     className="bg-white border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent w-full"
                   />
                 </div>
+                <div className="flex flex-col w-full md:w-auto">
+                  <label htmlFor="searchInput" className="block text-lg font-semibold mb-2">
+                    Search Festival:
+                  </label>
+                  <input
+                    type="text"
+                    id="searchInput"
+                    value={searchQuery}
+                    onChange={handleSearchQueryChange}
+                    className="bg-white border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent w-full"
+                  />
+                </div>
+                <div className="flex flex-col w-full md:w-auto">
+                  <label htmlFor="dateInput" className="block text-lg font-semibold mb-2">
+                    Select Date:
+                  </label>
+                  <input
+                    type="date"
+                    id="dateInput"
+                    value={selectedDate}
+                    onChange={handleDateChange}
+                    className="bg-white border border-gray-300 rounded-md px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent w-full"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -204,11 +240,7 @@ export default function Home() {
         <div>
           <h1 className="text-3xl font-bold text-green-900 mb-6">Festivals</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {jambase_festivals.map((festival: any, index: number) => {
-              if (selectedCountry && festival.country !== selectedCountry) {
-                return null;
-              }
-  
+            {filteredFestivals.map((festival: any, index: number) => {
               const topArtists = festival.artists.slice(0, 5);
               const remainingArtistsCount = festival.artists.length - topArtists.length;
               const imageUrl = festival.image || '/Festivals.jpeg';
