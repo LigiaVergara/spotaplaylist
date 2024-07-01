@@ -1,11 +1,9 @@
-export const festivals = [{
-    "Panama Open Air": {
+export const jambase_festivals = [
+    {
         "name": "Panama Open Air",
-        "date": "20240628",
-        "location": "Bonn, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/panama-open-air-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/402556154_884635206379109_3803016406512703931_n-e1701024416906-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Rita Ora",
             "Tyga",
@@ -28,16 +26,13 @@ export const festivals = [{
             "Slaymira",
             "Sylvie Miles",
             "Tommahawk"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/402556154_884635206379109_3803016406512703931_n-e1701024416906-1200x675.png"
+        ]
     },
-    "Mission Ready Festival": {
+    {
         "name": "Mission Ready Festival",
-        "date": "20240629",
-        "location": "Giebelstadt, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/mission-ready-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/405772574_1054578605719208_2669382310110400742_n-e1702136892766-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Sum 41",
             "Me First and the Gimme Gimmes",
@@ -52,32 +47,26 @@ export const festivals = [{
             "Svetlanas",
             "Melonball",
             "Doppelbock"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/405772574_1054578605719208_2669382310110400742_n-e1702136892766-1200x675.jpg"
+        ]
     },
-    "Splash!": {
+    {
         "name": "Splash!",
-        "date": "20240703",
-        "location": "Grafenhainichen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/splash-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/352815542_639820684841044_866331841278704024_n-e1696950590560-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Trippie Redd",
             "Kool Savas",
             "Paula Hartmann",
             "Celo & Abdi",
             "Maiya The Don"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/352815542_639820684841044_866331841278704024_n-e1696950590560-1200x675.jpg"
+        ]
     },
-    "Rockharz": {
+    {
         "name": "Rockharz",
-        "date": "20240703",
-        "location": "Ballenstedt, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/rockharz-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/358126815_836835927809603_8782448806526520424_n-e1712249876659-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Bruce Dickinson",
             "Amorphis",
@@ -90,16 +79,13 @@ export const festivals = [{
             "Gutalax",
             "Power Paladin",
             "Dirkschneider"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/358126815_836835927809603_8782448806526520424_n-e1712249876659-1200x675.jpg"
+        ]
     },
-    "Ruhrpott Rodeo": {
+    {
         "name": "Ruhrpott Rodeo",
-        "date": "20240705",
-        "location": "H\u00fcnxe, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/ruhrpott-rodeo-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/02/ruhrpott-rodeo-festival-2024-featured-e1708532722750-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Bad Religion",
             "Millencolin",
@@ -116,16 +102,13 @@ export const festivals = [{
             "Zeitkonsum",
             "The Chats",
             "Cosmic Psychos"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/02/ruhrpott-rodeo-festival-2024-featured-e1708532722750-1200x675.png"
+        ]
     },
-    "Ruhr-in-Love": {
+    {
         "name": "Ruhr-in-Love",
-        "date": "20240706",
-        "location": "Oberhausen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/ruhr-in-love-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/ruhr-in-love-2023-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Lilly Palmer",
             "Harris & Ford",
@@ -537,16 +520,13 @@ export const festivals = [{
             "Zenemy",
             "Zombic",
             "\u00d8STR\u00d8"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/ruhr-in-love-2023-1200x675.jpg"
+        ]
     },
-    "Tanzen im Gr\u00fcnen": {
+    {
         "name": "Tanzen im Gr\u00fcnen",
-        "date": "20240706",
-        "location": "Nuremberg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/tanzen-im-grunen-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/06/tanzen-grunen-2022-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "999999999",
             "AKA AKA",
@@ -557,16 +537,13 @@ export const festivals = [{
             "moonbootica",
             "Oliver Schories",
             "Trym"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/06/tanzen-grunen-2022-1200x675.jpg"
+        ]
     },
-    "Homerun Open Air": {
+    {
         "name": "Homerun Open Air",
-        "date": "20240706",
-        "location": "Gelnhausen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/homerun-open-air-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/319513646_10160696004313559_2809111606718473597_n-e1702505757341-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Anna Reusch",
             "Anton Lemacher",
@@ -592,16 +569,13 @@ export const festivals = [{
             "Steffen Deux",
             "Sven Louis",
             "Valenzia"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/319513646_10160696004313559_2809111606718473597_n-e1702505757341-1200x675.jpg"
+        ]
     },
-    "Airbeat One Festival": {
+    {
         "name": "Airbeat One Festival",
-        "date": "20240710",
-        "location": "Neustadt-Glewe, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/airbeat-one-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/361607904_854096652729427_2937983071096729812_n-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Armin van Buuren",
             "W&W",
@@ -659,16 +633,13 @@ export const festivals = [{
             "DJ Dune",
             "gollum",
             "Jay Frog"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/361607904_854096652729427_2937983071096729812_n-1200x675.jpg"
+        ]
     },
-    "Melt Festival": {
+    {
         "name": "Melt Festival",
-        "date": "20240711",
-        "location": "Grafenhainichen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/melt-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-33-07-pm-e1696368865781-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Acidheaven",
             "bar italia",
@@ -702,16 +673,13 @@ export const festivals = [{
             "La Noche",
             "Maricas",
             "Unplayed"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-33-07-pm-e1696368865781-1200x675.png"
+        ]
     },
-    "Antaris Project": {
+    {
         "name": "Antaris Project",
-        "date": "20240712",
-        "location": "14728 Gollenberg-St\u00f6lln, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/antaris-project-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/antaris-project-2024-featured-e1715784307978-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "1200 Mics",
             "Alex",
@@ -767,16 +735,13 @@ export const festivals = [{
             "Seb-G",
             "Tim Taste",
             "Trilingo"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/antaris-project-2024-featured-e1715784307978-1200x675.jpg"
+        ]
     },
-    "SMAG Sundance Open Air Festival": {
+    {
         "name": "SMAG Sundance Open Air Festival",
-        "date": "20240713",
-        "location": "Essen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/smag-sundance-open-air-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/smag-sun-dance-2023-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "YOUNOTUS",
             "Plastik Funk",
@@ -790,63 +755,51 @@ export const festivals = [{
             "Juliet Sikora",
             "SKIY",
             "Simina Grigoriu"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/smag-sun-dance-2023-1200x675.jpg"
+        ]
     },
-    "Parookaville": {
+    {
         "name": "Parookaville",
-        "date": "20240717",
-        "location": "Kleve, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/parookaville-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2024-04-21-at-6-52-29pm-e1713740022885-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Andrew Rayel",
             "Bassjackers",
             "Ben Nicky",
             "Julian Jordan",
             "YOUNOTUS"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2024-04-21-at-6-52-29pm-e1713740022885-1200x675.png"
+        ]
     },
-    "G.O.N.D. Festival": {
+    {
         "name": "G.O.N.D. Festival",
-        "date": "20240717",
-        "location": "Nottertal-Heilinger H\u00f6hen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/g-o-n-d-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/10574-card-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Thekenproleten",
             "Egoisten",
             "B\u00f6hse Neffen",
             "Niveau Ist Keine Hautcreme"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/10574-card-1200x675.jpg"
+        ]
     },
-    "Jazzopen Stuttgart": {
+    {
         "name": "Jazzopen Stuttgart",
-        "date": "20240718",
-        "location": "Stuttgart, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/jazzopen-stuttgart-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/403887596_880247210324898_7073370406129674117_n-e1701807472619-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Lawrence",
             "Billy Cobham",
             "Diana Ezerex",
             "Donny McCaslin",
             "Talya"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/403887596_880247210324898_7073370406129674117_n-e1701807472619-1200x675.jpg"
+        ]
     },
-    "Deichbrand Festival": {
+    {
         "name": "Deichbrand Festival",
-        "date": "20240718",
-        "location": "Wurster Nordseek\u00fcste, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/deichbrand-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/363402990_835422754611206_918540015903695439_n-e1701869349834-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Drunken Masters",
             "Beauty & The Beats",
@@ -874,29 +827,23 @@ export const festivals = [{
             "Tommahawk",
             "Vargo",
             "AKA AKA"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/363402990_835422754611206_918540015903695439_n-e1701869349834-1200x675.png"
+        ]
     },
-    "Das Fest": {
+    {
         "name": "Das Fest",
-        "date": "20240718",
-        "location": "Karlsruhe, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/das-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/das-fest-2024-featured-e1715617264600-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Peter Fox",
             "Tones and I"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/das-fest-2024-featured-e1715617264600-1200x675.jpg"
+        ]
     },
-    "Sea You Festival": {
+    {
         "name": "Sea You Festival",
-        "date": "20240719",
-        "location": "Freiburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/sea-you-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-06-at-8-55-13am-e1701870955426-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Adam Beyer",
             "Astrix",
@@ -933,16 +880,13 @@ export const festivals = [{
             "Murphy Haze",
             "Nino Locksen",
             "Zakari & Blange"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-06-at-8-55-13am-e1701870955426-1200x675.png"
+        ]
     },
-    "Greenfields Open Air Festival": {
+    {
         "name": "Greenfields Open Air Festival",
-        "date": "20240720",
-        "location": "Munich, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/greenfields-open-air-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406011263_10161515255480555_1624114586056544260_n-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Anfisa Letyago",
             "Kevin de Vries",
@@ -952,16 +896,13 @@ export const festivals = [{
             "Patrick Topping",
             "Paul Kalkbrenner",
             "Sven V\u00e4th"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406011263_10161515255480555_1624114586056544260_n-1200x675.png"
+        ]
     },
-    "HABITAT Festival": {
+    {
         "name": "HABITAT Festival",
-        "date": "20240720",
-        "location": "Hamburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/habitat-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/01/habitat-featured-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Daria Kolosova",
             "DJ Gigola",
@@ -1035,16 +976,13 @@ export const festivals = [{
             "Gome",
             "Milo Bash",
             "Haeder"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/01/habitat-featured-1200x675.png"
+        ]
     },
-    "Open Beatz Festival": {
+    {
         "name": "Open Beatz Festival",
-        "date": "20240725",
-        "location": "Herzogenaurach, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/open-beatz-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/372910114_618184783805728_3936053322480640654_n-e1704464208175-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Alex Hof",
             "DJ Artin",
@@ -1056,16 +994,13 @@ export const festivals = [{
             "Paul Keen",
             "Timbo & This Chris",
             "Why Not"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/372910114_618184783805728_3936053322480640654_n-e1704464208175-1200x675.jpg"
+        ]
     },
-    "Break the Rules Festival": {
+    {
         "name": "Break the Rules Festival",
-        "date": "20240725",
-        "location": "Boxberg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/break-the-rules-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-05-at-8-53-54am-e1704462949614-1200x675.png",
+        "country": "Germany",
         "artists": [
             "01099",
             "Kontra K",
@@ -1135,16 +1070,13 @@ export const festivals = [{
             "Zombic",
             "Reche & Recall",
             "OsTEKKe"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-05-at-8-53-54am-e1704462949614-1200x675.png"
+        ]
     },
-    "Herzberg Festival": {
+    {
         "name": "Herzberg Festival",
-        "date": "20240725",
-        "location": "Breitenbach am Herzberg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/herzberg-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/374189573_688046156678092_5919407317522510368_n-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Gringo Mayer Und Die Kegelband",
             "Henrik Freischlader",
@@ -1164,16 +1096,13 @@ export const festivals = [{
             "Marcoca",
             "Urlaub in Polen",
             "DJ Selekta Ahoi"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/374189573_688046156678092_5919407317522510368_n-1200x675.jpg"
+        ]
     },
-    "Waldfrieden Wonderland": {
+    {
         "name": "Waldfrieden Wonderland",
-        "date": "20240725",
-        "location": "Stemwede, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/waldfrieden-wonderland-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/wonderland2024-2-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Acousma",
             "AiRi",
@@ -1262,16 +1191,13 @@ export const festivals = [{
             "To Be",
             "Trilingo",
             "Tussi B"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/wonderland2024-2-1200x675.jpg"
+        ]
     },
-    "Juicy Beats": {
+    {
         "name": "Juicy Beats",
-        "date": "20240726",
-        "location": "Dortmund, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/juicy-beats-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/364792131_863289605358093_4680048487837123011_n-e1704464915651-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Alligatoah",
             "Bukahara",
@@ -1292,16 +1218,13 @@ export const festivals = [{
             "Dash",
             "Blockbuster Soundsystem",
             "Junior Carl"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/364792131_863289605358093_4680048487837123011_n-e1704464915651-1200x675.png"
+        ]
     },
-    "Watt en Schlick Festival": {
+    {
         "name": "Watt en Schlick Festival",
-        "date": "20240726",
-        "location": "Varel, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/watt-en-schlick-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-18-at-2-39-33pm-e1705609102983-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Kokoroko",
             "Mine",
@@ -1316,16 +1239,13 @@ export const festivals = [{
             "Milan Ring",
             "Friedberg",
             "Leila"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-18-at-2-39-33pm-e1705609102983-1200x675.png"
+        ]
     },
-    "Zuckerbrot & Peitsche Open Air Festival": {
+    {
         "name": "Zuckerbrot & Peitsche Open Air Festival",
-        "date": "20240726",
-        "location": "Regensburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/zuckerbrot-peitsche-open-air-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/10980-card-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "moonbootica",
             "Fjusha",
@@ -1339,16 +1259,13 @@ export const festivals = [{
             "Heggemann",
             "Mareike Bautz",
             "Gregor Tresher"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/10980-card-1200x675.jpg"
+        ]
     },
-    "Schall im Schilf Open Air": {
+    {
         "name": "Schall im Schilf Open Air",
-        "date": "20240727",
-        "location": "Garching, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/schall-im-schilf-open-air-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/screenshot-2024-03-25-at-6-31-11pm-e1711405957946-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Bambounou",
             "Bogus",
@@ -1367,16 +1284,13 @@ export const festivals = [{
             "Radio 80000",
             "Shanti Celeste",
             "Stella Zekri"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/screenshot-2024-03-25-at-6-31-11pm-e1711405957946-1200x675.png"
+        ]
     },
-    "Wacken Open Air": {
+    {
         "name": "Wacken Open Air",
-        "date": "20240731",
-        "location": "Wacken, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/wacken-open-air-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/02/wacken-featured-1200x675.png",
+        "country": "Germany",
         "artists": [
             "The Darkness",
             "Flogging Molly",
@@ -1388,16 +1302,13 @@ export const festivals = [{
             "Suzi Quatro",
             "The Warning",
             "Tina Guo"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/02/wacken-featured-1200x675.png"
+        ]
     },
-    "Nature One": {
+    {
         "name": "Nature One",
-        "date": "20240801",
-        "location": "Hasselbach, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/nature-one-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/11/nature-one--1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "A.D.H.S.",
             "Adam Beyer",
@@ -1572,16 +1483,13 @@ export const festivals = [{
             "Tiko",
             "ACiDC",
             "Mechanic Freakz"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/11/nature-one--1200x675.jpg"
+        ]
     },
-    "Appletree Garden": {
+    {
         "name": "Appletree Garden",
-        "date": "20240801",
-        "location": "Diepholz, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/appletree-garden-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406061159_744027967764082_2469038771921879713_n-e1704486123510-1200x675.png",
+        "country": "Germany",
         "artists": [
             "Acud",
             "Ameli Paul",
@@ -1622,16 +1530,13 @@ export const festivals = [{
             "Picture Parlour",
             "Rachel Chinouriri",
             "The Vaccines"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406061159_744027967764082_2469038771921879713_n-e1704486123510-1200x675.png"
+        ]
     },
-    "Summer Dream Open Air Festival": {
+    {
         "name": "Summer Dream Open Air Festival",
-        "date": "20240802",
-        "location": "Blievenstorf, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/summer-dream-open-air-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/418451956_881203414005543_418959728498394954_n-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Antinomy",
             "Atype",
@@ -1673,16 +1578,13 @@ export const festivals = [{
             "Psytohigh",
             "Pyrokine",
             "Djane Jen"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/418451956_881203414005543_418959728498394954_n-1200x675.jpg"
+        ]
     },
-    "WHOLE Festival": {
+    {
         "name": "WHOLE Festival",
-        "date": "20240802",
-        "location": "Grafenhainichen, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/whole-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/02/screenshot-2024-02-09-at-7-34-46am-e1707482204428-1200x675.png",
+        "country": "Germany",
         "artists": [
             "AGY3NA",
             "Angel D'Lite",
@@ -1725,16 +1627,13 @@ export const festivals = [{
             "Tama Sumo",
             "The Blessed Madonna",
             "Volvox"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/02/screenshot-2024-02-09-at-7-34-46am-e1707482204428-1200x675.png"
+        ]
     },
-    "Love Family Park": {
+    {
         "name": "Love Family Park",
-        "date": "20240803",
-        "location": "Frankfurt, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/love-family-park-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/11013-card-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Sven V\u00e4th",
             "Adam Beyer",
@@ -1746,16 +1645,13 @@ export const festivals = [{
             "Malugi",
             "Patrick Mason",
             "Supergloss"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/11013-card-1200x675.jpg"
+        ]
     },
-    "SPEKTRUM": {
+    {
         "name": "SPEKTRUM",
-        "date": "20240803",
-        "location": "Hamburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/spektrum-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/385078621_862439098579895_2100778472725064257_n-e1704540106836-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Domiziana",
             "Haftbefehl",
@@ -1779,16 +1675,13 @@ export const festivals = [{
             "Bounty & Cocoa",
             "Bangerfabrique",
             "Aylo"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/385078621_862439098579895_2100778472725064257_n-e1704540106836-1200x675.jpg"
+        ]
     },
-    "Isle of Summer Beach": {
+    {
         "name": "Isle of Summer Beach",
-        "date": "20240803",
-        "location": "Oberschlei\u00dfheim, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/isle-of-summer-beach-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/06/isle-of-summer-beach-2023-featured-e1685723090323-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "AKA AKA",
             "Alignment",
@@ -1808,16 +1701,13 @@ export const festivals = [{
             "RYZN",
             "Tellerboy",
             "WLNR"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/06/isle-of-summer-beach-2023-featured-e1685723090323-1200x675.jpg"
+        ]
     },
-    "Vogelball": {
+    {
         "name": "Vogelball",
-        "date": "20240803",
-        "location": "Hamburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/vogelball-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/336656225_956001232248574_7521337853252811892_n-e1704538937175-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Lil' Lil'",
             "Mariybu",
@@ -1850,16 +1740,13 @@ export const festivals = [{
             "Senu",
             "Slimgirl Fat",
             "yung_womb"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/336656225_956001232248574_7521337853252811892_n-e1704538937175-1200x675.jpg"
+        ]
     },
-    "Open Flair": {
+    {
         "name": "Open Flair",
-        "date": "20240807",
-        "location": "Eschwege, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/open-flair-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/01/open-flair-2022-featured-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Rise Against",
             "Alligatoah",
@@ -1911,16 +1798,13 @@ export const festivals = [{
             "TYNA",
             "Janiz",
             "Phileas in the Fog"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2021/01/open-flair-2022-featured-1200x675.jpg"
+        ]
     },
-    "Rocco del Schlacko": {
+    {
         "name": "Rocco del Schlacko",
-        "date": "20240808",
-        "location": "Saarbrucken, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/rocco-del-schlacko-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/12388-card-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Alligatoah",
             "Provinz",
@@ -1928,30 +1812,24 @@ export const festivals = [{
             "ENNIO",
             "Esther Graf",
             "Sondaschule"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/12388-card-1200x675.jpg"
+        ]
     },
-    "Taubertal Festival": {
+    {
         "name": "Taubertal Festival",
-        "date": "20240808",
-        "location": "Rothenburg, Germany",
-        "country": "Germany",
         "url": "https://www.jambase.com/festival/taubertal-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/12/taubertal-fest-2023-1200x675.jpg",
+        "country": "Germany",
         "artists": [
             "Montreal",
             "Bibiza",
             "TYNA"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/12/taubertal-fest-2023-1200x675.jpg"
+        ]
     },
-    "Jera On Air": {
+    {
         "name": "Jera On Air",
-        "date": "20240627",
-        "location": "Ysselsteyn, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/jera-on-air-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/jera-on-air-2024-featured-e1714572711501-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Electric Callboy",
             "Body Count",
@@ -1971,16 +1849,13 @@ export const festivals = [{
             "Shadow of Intent",
             "The Sha-La-Lee's",
             "De Rooie Jager"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/jera-on-air-2024-featured-e1714572711501-1200x675.jpg"
+        ]
     },
-    "Defqon.1": {
+    {
         "name": "Defqon.1",
-        "date": "20240627",
-        "location": "Biddinghuizen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/defqon-1-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/358449117_827947608892027_2696403569064540725_n-e1699022440374-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "3 Blokes",
             "Adaro",
@@ -2121,16 +1996,13 @@ export const festivals = [{
             "Ruffian",
             "Synergy",
             "Villain"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/358449117_827947608892027_2696403569064540725_n-e1699022440374-1200x675.jpg"
+        ]
     },
-    "Luminosity Beach Festival": {
+    {
         "name": "Luminosity Beach Festival",
-        "date": "20240627",
-        "location": "Zandvoort, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/luminosity-beach-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/01/luminosity-2022-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Alan Morris",
             "Alessandra Roncone",
@@ -2154,16 +2026,13 @@ export const festivals = [{
             "Spark & Shade",
             "Stoneface & Terminal",
             "Super8 & Tab"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/01/luminosity-2022-1200x675.jpg"
+        ]
     },
-    "Indian Summer Festival": {
+    {
         "name": "Indian Summer Festival",
-        "date": "20240629",
-        "location": "Oudkarspel, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/indian-summer-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/indian-summer-festival-2024-featured-e1718199229484-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Acda en De Munnik",
             "De Jeugd van Tegenwoordig",
@@ -2199,16 +2068,13 @@ export const festivals = [{
             "Hitjesgolf",
             "Raphael da Silva",
             "Riell"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/indian-summer-festival-2024-featured-e1718199229484-1200x675.jpg"
+        ]
     },
-    "elrow Town Netherlands": {
+    {
         "name": "elrow Town Netherlands",
-        "date": "20240629",
-        "location": "Eersel, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/elrow-town-netherlands-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-16-at-6-50-43am-e1705405962111-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Bastian Bux",
             "Benny Rodrigues",
@@ -2249,16 +2115,13 @@ export const festivals = [{
             "Saladiaga",
             "Snoeck",
             "The Square Sun"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-16-at-6-50-43am-e1705405962111-1200x675.png"
+        ]
     },
-    "Down The Rabbit Hole": {
+    {
         "name": "Down The Rabbit Hole",
-        "date": "20240705",
-        "location": "Ewijk, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/down-the-rabbit-hole-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-18-at-2-20-02pm-e1697653347920-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "LCD Soundsystem",
             "Eefje de Visser",
@@ -2309,16 +2172,13 @@ export const festivals = [{
             "Alex Figueira",
             "Volcano",
             "Naomi Sharon"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-18-at-2-20-02pm-e1697653347920-1200x675.png"
+        ]
     },
-    "Awakenings Summer Festival": {
+    {
         "name": "Awakenings Summer Festival",
-        "date": "20240705",
-        "location": "Hilvarenbeek, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/awakenings-summer-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/03/awakenings_feature_2020-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "999999999",
             "Anfisa Letyago",
@@ -2341,16 +2201,13 @@ export const festivals = [{
             "Orleus",
             "Juliet Fox",
             "Victor Ruiz"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/03/awakenings_feature_2020-1200x675.jpg"
+        ]
     },
-    "WiSH Outdoor NL": {
+    {
         "name": "WiSH Outdoor NL",
-        "date": "20240705",
-        "location": "Asten, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/wish-outdoor-nl-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-18-19-pm-e1696367998845-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "APH\u00d8TIC",
             "Cynthia Spiering",
@@ -2397,16 +2254,13 @@ export const festivals = [{
             "B-Front",
             "Phuture Noize",
             "The Enlightenment"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-18-19-pm-e1696367998845-1200x675.png"
+        ]
     },
-    "Karma Outdoor": {
+    {
         "name": "Karma Outdoor",
-        "date": "20240705",
-        "location": "Eindhoven, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/karma-outdoor-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/09/screenshot-2023-09-28-at-11-32-18-am-e1695915242681-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Promo",
             "Tha Playah",
@@ -2418,16 +2272,13 @@ export const festivals = [{
             "PAVO",
             "Kid Karma",
             "MC Syco"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/09/screenshot-2023-09-28-at-11-32-18-am-e1695915242681-1200x675.png"
+        ]
     },
-    "Dreamfields": {
+    {
         "name": "Dreamfields",
-        "date": "20240706",
-        "location": "Lathum, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/dreamfields-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/420129731_757653936400304_9147255848475324494_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Oliver Heldens",
             "Afro Bros",
@@ -2460,16 +2311,13 @@ export const festivals = [{
             "Trobi",
             "Turfy Gang",
             "Ve/Ra"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/420129731_757653936400304_9147255848475324494_n-1200x675.jpg"
+        ]
     },
-    "By The Creek": {
+    {
         "name": "By The Creek",
-        "date": "20240706",
-        "location": "Vianen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/by-the-creek-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/401802757_860697575431394_1294242776688872376_n-e1702505144645-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Azyr",
             "Bad Boombox",
@@ -2504,16 +2352,13 @@ export const festivals = [{
             "Wasserette Soundsystem",
             "WEF",
             "X-Coast"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/401802757_860697575431394_1294242776688872376_n-e1702505144645-1200x675.jpg"
+        ]
     },
-    "North Sea Jazz Festival": {
+    {
         "name": "North Sea Jazz Festival",
-        "date": "20240712",
-        "location": "Rotterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/north-sea-jazz-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/293201190_7920090758031127_2511340168063806884_n-e1702581017186-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Amaro Freitas",
             "Brittany Howard",
@@ -2556,16 +2401,13 @@ export const festivals = [{
             "Angelika Niescier",
             "Tomeka Reid",
             "Orchestra Of The Royal Netherlands Air Force"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/293201190_7920090758031127_2511340168063806884_n-e1702581017186-1200x675.png"
+        ]
     },
-    "Bospop": {
+    {
         "name": "Bospop",
-        "date": "20240712",
-        "location": "Weert, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/bospop-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/411208158_901286231365920_6235723163681147537_n-e1702580545975-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "John Fogerty",
             "Alice Cooper",
@@ -2577,16 +2419,13 @@ export const festivals = [{
             "Julian Sas Band",
             "Made In Purple",
             "Smash Into Pieces"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/411208158_901286231365920_6235723163681147537_n-e1702580545975-1200x675.png"
+        ]
     },
-    "City of Dance": {
+    {
         "name": "City of Dance",
-        "date": "20240712",
-        "location": "Middelburg, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/city-of-dance-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-14-at-3-23-28pm-e1702585509614-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Broederliefde",
             "Afro Bros",
@@ -2625,16 +2464,13 @@ export const festivals = [{
             "Adjuzt",
             "Primeshock",
             "Feest DJ Mike"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-14-at-3-23-28pm-e1702585509614-1200x675.png"
+        ]
     },
-    "Vunzige Deuntjes Festival": {
+    {
         "name": "Vunzige Deuntjes Festival",
-        "date": "20240713",
-        "location": "Amstelveen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/vunzige-deuntjes-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/242003376_4368493923270102_2935177183973148173_n-e1702587712797-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Broederliefde",
             "Frenna",
@@ -2705,16 +2541,13 @@ export const festivals = [{
             "Kees",
             "Masai",
             "DJ Melv!ee"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/242003376_4368493923270102_2935177183973148173_n-e1702587712797-1200x675.png"
+        ]
     },
-    "Zwarte Cross": {
+    {
         "name": "Zwarte Cross",
-        "date": "20240718",
-        "location": "Lievelde, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/zwarte-cross-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/399620749_875343990822349_7933484709691296023_n-e1704029521473-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Aegidius",
             "Armin van Buuren",
@@ -2760,16 +2593,13 @@ export const festivals = [{
             "Voltage",
             "Wijbrand van der Sande",
             "Wolfgang Saufi"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/399620749_875343990822349_7933484709691296023_n-e1704029521473-1200x675.jpg"
+        ]
     },
-    "Liquicity Festival": {
+    {
         "name": "Liquicity Festival",
-        "date": "20240719",
-        "location": "Oudkarspel, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/liquicity-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/09/362961684_658344469661691_5849687208126569800_n-e1696086354624-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Sub Focus",
             "ID",
@@ -2803,16 +2633,13 @@ export const festivals = [{
             "MiesFM",
             "Styke",
             "Sub:liminal"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/09/362961684_658344469661691_5849687208126569800_n-e1696086354624-1200x675.jpg"
+        ]
     },
-    "Dominator Festival": {
+    {
         "name": "Dominator Festival",
-        "date": "20240719",
-        "location": "Eersel, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/dominator-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/411522924_756347869854963_7438433966617383332_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Adjuzt",
             "Anderex",
@@ -2874,16 +2701,13 @@ export const festivals = [{
             "Panic",
             "Spitnoise",
             "The Darkraver"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/411522924_756347869854963_7438433966617383332_n-1200x675.jpg"
+        ]
     },
-    "Verknipt ArenA": {
+    {
         "name": "Verknipt ArenA",
-        "date": "20240720",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/verknipt-arena-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/387870406_720832226753640_5647377102084219808_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "6EJOU",
             "Alignment",
@@ -2900,16 +2724,13 @@ export const festivals = [{
             "Raxeller",
             "Sara Landry",
             "Shl\u00f8mo"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/387870406_720832226753640_5647377102084219808_n-1200x675.jpg"
+        ]
     },
-    "Dekmantel Festival": {
+    {
         "name": "Dekmantel Festival",
-        "date": "20240726",
-        "location": "Amstelveen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/dekmantel-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/412989984_893145455506180_1937145544281986607_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Aurora Halal",
             "Francesco Del Garda",
@@ -2919,16 +2740,13 @@ export const festivals = [{
             "Salome",
             "SPFDJ",
             "Spekki Webu"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/412989984_893145455506180_1937145544281986607_n-1200x675.jpg"
+        ]
     },
-    "Free Your Mind Festival Groningen": {
+    {
         "name": "Free Your Mind Festival Groningen",
-        "date": "20240727",
-        "location": "Groningen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/free-your-mind-festival-groningen-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/free-your-mind-kingsday-2024-featured-e1704815207171-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Trym",
             "Aazar",
@@ -2949,16 +2767,13 @@ export const festivals = [{
             "De Sluwe Vos",
             "Theodor Nabuurs",
             "Vall Du Son"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/free-your-mind-kingsday-2024-featured-e1704815207171-1200x675.jpg"
+        ]
     },
-    "Sm\u00e8rrig Zomer Festival": {
+    {
         "name": "Sm\u00e8rrig Zomer Festival",
-        "date": "20240727",
-        "location": "\u2018s-Hertogenbosch, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/smerrig-zomer-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/431479745_745450281023729_3273244780268196493_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Frenna",
             "Kevin",
@@ -2993,16 +2808,13 @@ export const festivals = [{
             "MC Jordan",
             "MC Kefas",
             "Serge V."
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/431479745_745450281023729_3273244780268196493_n-1200x675.jpg"
+        ]
     },
-    "Solar Weekend": {
+    {
         "name": "Solar Weekend",
-        "date": "20240801",
-        "location": "Roermond, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/solar-weekend-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/403829284_894867625337686_7299177765744076492_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "6EJOU",
             "Bizzey",
@@ -3115,16 +2927,13 @@ export const festivals = [{
             "The Poser Party",
             "WEF",
             "Whiplash"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/403829284_894867625337686_7299177765744076492_n-1200x675.jpg"
+        ]
     },
-    "REBELLiON Outdoor Festival": {
+    {
         "name": "REBELLiON Outdoor Festival",
-        "date": "20240803",
-        "location": "Almere, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/rebellion-outdoor-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/rebellion-outdoor-festival-2024-featured-e1713968592674-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Act of Rage",
             "Aversion",
@@ -3201,16 +3010,13 @@ export const festivals = [{
             "Infliction",
             "Phantom",
             "MC Activate"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/rebellion-outdoor-festival-2024-featured-e1713968592674-1200x675.jpg"
+        ]
     },
-    "Crazy Sexy Cool Festival": {
+    {
         "name": "Crazy Sexy Cool Festival",
-        "date": "20240803",
-        "location": "Rotterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/crazy-sexy-cool-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/365802297_844372037046907_94004495556830827_n-e1699461257401-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Kevin",
             "Afro Bros",
@@ -3239,16 +3045,13 @@ export const festivals = [{
             "Diaz",
             "KM",
             "Lucci"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/365802297_844372037046907_94004495556830827_n-e1699461257401-1200x675.jpg"
+        ]
     },
-    "Dance Valley": {
+    {
         "name": "Dance Valley",
-        "date": "20240810",
-        "location": "Velsen-Zuid, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/dance-valley-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406018430_879418173552734_564840248640158610_n-e1704560046900-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Underworld",
             "Dimitri Vegas & Like Mike",
@@ -3280,16 +3083,13 @@ export const festivals = [{
             "The Gang",
             "Vlado",
             "Tony Junior"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406018430_879418173552734_564840248640158610_n-e1704560046900-1200x675.jpg"
+        ]
     },
-    "Loveland Festival": {
+    {
         "name": "Loveland Festival",
-        "date": "20240810",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/loveland-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-06-at-11-49-12am-e1704559842926-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Anfisa Letyago",
             "Ben Klock",
@@ -3330,16 +3130,13 @@ export const festivals = [{
             "Syreeta",
             "Selene",
             "VNTM"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-06-at-11-49-12am-e1704559842926-1200x675.png"
+        ]
     },
-    "Blijdorp Festival": {
+    {
         "name": "Blijdorp Festival",
-        "date": "20240810",
-        "location": "Rotterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/blijdorp-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/05/blijdorp2019_c-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Jyoty",
             "Mall Grab",
@@ -3380,16 +3177,13 @@ export const festivals = [{
             "Kahorsa",
             "Della Fox",
             "Katie"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/05/blijdorp2019_c-1200x675.jpg"
+        ]
     },
-    "Paradigm Festival (Netherlands)": {
+    {
         "name": "Paradigm Festival (Netherlands)",
-        "date": "20240810",
-        "location": "Groningen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/paradigm-festival-netherlands-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/3994-card-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Akua",
             "Hyperaktivist",
@@ -3414,26 +3208,20 @@ export const festivals = [{
             "Saoirse",
             "Spekki Webu",
             "Andy Garvey"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/3994-card-1200x675.jpg"
+        ]
     },
-    "Lakedance (August)": {
+    {
         "name": "Lakedance (August)",
-        "date": "20240810",
-        "location": "Best, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/lakedance-august-2024",
-        "description": "",
-        "artists": [],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-04-at-10-36-42-am-e1696430432246-1200x675.png"
-    },
-    "Zin in de Zomer Fest": {
-        "name": "Zin in de Zomer Fest",
-        "date": "20240811",
-        "location": "Velsen-Zuid, Netherlands",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-04-at-10-36-42-am-e1696430432246-1200x675.png",
         "country": "Netherlands",
+        "artists": []
+    },
+    {
+        "name": "Zin in de Zomer Fest",
         "url": "https://www.jambase.com/festival/zin-in-de-zomer-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/zin-in-de-zomer-fest-2024-featured-e1718650422101-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Roxy Dekker",
             "Bizzey",
@@ -3459,16 +3247,13 @@ export const festivals = [{
             "Wesly Bronkhorst",
             "Tino Martin",
             "Dries Roelvink"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/zin-in-de-zomer-fest-2024-featured-e1718650422101-1200x675.jpg"
+        ]
     },
-    "Lowlands": {
+    {
         "name": "Lowlands",
-        "date": "20240816",
-        "location": "Biddinghuizen, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/lowlands-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/lowlands-2024-featured-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Ama Lou",
             "Backxwash",
@@ -3519,16 +3304,13 @@ export const festivals = [{
             "University",
             "Wargasm",
             "Cho & The Chosens"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/lowlands-2024-featured-1200x675.jpg"
+        ]
     },
-    "Decibel Outdoor": {
+    {
         "name": "Decibel Outdoor",
-        "date": "20240816",
-        "location": "Hilvarenbeek, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/decibel-outdoor-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/428349500_963560085333016_8007345717929594526_n-e1715982168868-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Adrenalize",
             "Atmozfears",
@@ -3573,32 +3355,26 @@ export const festivals = [{
             "Phuture Noize",
             "Degos & Re-Done",
             "Sub Sonik"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/428349500_963560085333016_8007345717929594526_n-e1715982168868-1200x675.jpg"
+        ]
     },
-    "Dynamo Metalfest": {
+    {
         "name": "Dynamo Metalfest",
-        "date": "20240816",
-        "location": "Eindhoven, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/dynamo-metalfest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/07/dynamo-metalfest-2022-featured-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Watain",
             "Uada",
             "Helleruin",
             "Decapitated",
             "Toxic Holocaust"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2022/07/dynamo-metalfest-2022-featured-1200x675.jpg"
+        ]
     },
-    "R2 Festival": {
+    {
         "name": "R2 Festival",
-        "date": "20240817",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/r2-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/442503662_985528959601616_4838868971165154455_n-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "\u00c2me",
             "Angerfist",
@@ -3651,31 +3427,25 @@ export const festivals = [{
             "Todd Terje",
             "Ve/Ra",
             "Kateryna Kremko"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/442503662_985528959601616_4838868971165154455_n-1200x675.jpg"
+        ]
     },
-    "Reggae Lake Festival": {
+    {
         "name": "Reggae Lake Festival",
-        "date": "20240817",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/reggae-lake-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/06/reggae-lake-amsterdam-festival-2023-featured-e1687957512725-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Third World",
             "Anthony B",
             "Skip Marley",
             "Wayne Wonder"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/06/reggae-lake-amsterdam-festival-2023-featured-e1687957512725-1200x675.jpg"
+        ]
     },
-    "straf_werk festival": {
+    {
         "name": "straf_werk festival",
-        "date": "20240817",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/strafwerk-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/straf-werk-festival-2024-featured-e1710868584995-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "FISHER",
             "Franky Rizardo",
@@ -3708,16 +3478,13 @@ export const festivals = [{
             "Samuel Deep",
             "Spacer Woman",
             "Syreeta"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/straf-werk-festival-2024-featured-e1710868584995-1200x675.jpg"
+        ]
     },
-    "Melody Garden Festival": {
+    {
         "name": "Melody Garden Festival",
-        "date": "20240817",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/melody-garden-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/melody-garden-festival-2024-featured-e1718655899579-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Joachim Pastor",
             "Kimman",
@@ -3731,16 +3498,13 @@ export const festivals = [{
             "Jaap Ligthart",
             "Mitch de Klein",
             "Coll\u00e9"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/06/melody-garden-festival-2024-featured-e1718655899579-1200x675.jpg"
+        ]
     },
-    "LatinVillage Festival": {
+    {
         "name": "LatinVillage Festival",
-        "date": "20240818",
-        "location": "Amsterdam, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/latinvillage-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-10-at-4-15-01pm-e1704921502715-1200x675.png",
+        "country": "Netherlands",
         "artists": [
             "Antunes",
             "Boddhi Satva",
@@ -3809,16 +3573,13 @@ export const festivals = [{
             "Extremos Sarkshinners",
             "Tinta",
             "Willy"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/screenshot-2024-01-10-at-4-15-01pm-e1704921502715-1200x675.png"
+        ]
     },
-    "Into The Great Wide Open": {
+    {
         "name": "Into The Great Wide Open",
-        "date": "20240829",
-        "location": "Oost-Vlieland, Netherlands",
-        "country": "Netherlands",
         "url": "https://www.jambase.com/festival/into-the-great-wide-open-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/07/into-the-great-wide-open-festival-2023-featured-e1688752956764-1200x675.jpg",
+        "country": "Netherlands",
         "artists": [
             "Alfa Mist",
             "Antony Szmierek",
@@ -3858,16 +3619,13 @@ export const festivals = [{
             "Walt Disco",
             "Yin Yin",
             "Zimmer90"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/07/into-the-great-wide-open-festival-2023-featured-e1688752956764-1200x675.jpg"
+        ]
     },
-    "Resurrection Fest": {
+    {
         "name": "Resurrection Fest",
-        "date": "20240625",
-        "location": "Viveiro, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/resurrection-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/rf23-imagenendshow2024-v2-e1697140558728-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Alice Cooper",
             "Machine Head",
@@ -3891,16 +3649,13 @@ export const festivals = [{
             "Bokassa",
             "M\u00d8L",
             "Sandforth Music Factory"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/rf23-imagenendshow2024-v2-e1697140558728-1200x675.png"
+        ]
     },
-    "Holika Festival": {
+    {
         "name": "Holika Festival",
-        "date": "20240626",
-        "location": "Calahorra, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/holika-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/328862640_727707242266268_1031553717261395875_n-e1699022979425-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Dei V",
             "BTRIZ",
@@ -3911,16 +3666,13 @@ export const festivals = [{
             "Zakyo",
             "Yeico",
             "TONI"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/328862640_727707242266268_1031553717261395875_n-e1699022979425-1200x675.jpg"
+        ]
     },
-    "Big Sound": {
+    {
         "name": "Big Sound",
-        "date": "20240627",
-        "location": "Valencia, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/big-sound-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/ramry8wb09ew-e1696529968975-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Aitana",
             "Cali Y El Dandee",
@@ -3938,16 +3690,13 @@ export const festivals = [{
             "Robby M",
             "Buganvilla",
             "DJ Ram"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/ramry8wb09ew-e1696529968975-1200x675.jpg"
+        ]
     },
-    "Puro Latino Madrid": {
+    {
         "name": "Puro Latino Madrid",
-        "date": "20240628",
-        "location": "Madrid, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/puro-latino-madrid-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-03-at-11-59-11am-e1699027211564-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Anuel AA",
             "Saiko",
@@ -3957,16 +3706,13 @@ export const festivals = [{
             "Cano",
             "Yovngchimi",
             "Vilu Gontero"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-03-at-11-59-11am-e1699027211564-1200x675.png"
+        ]
     },
-    "Idilic Festival": {
+    {
         "name": "Idilic Festival",
-        "date": "20240628",
-        "location": "Sant Feliu de Gu\u00edxols, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/idilic-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/idilic_card_655x420_v3-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Bresh",
             "Arnau Obiols",
@@ -3978,16 +3724,13 @@ export const festivals = [{
             "\u00cd\u00f1igo Quintero",
             "Pol Granch",
             "Paula Mattheus"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/idilic_card_655x420_v3-1200x675.jpg"
+        ]
     },
-    "Conexion Valladolid": {
+    {
         "name": "Conexion Valladolid",
-        "date": "20240628",
-        "location": "Valladolid, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/conexion-valladolid-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-05-at-4-14-08-pm-1-e1696537026122-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Vetusta Morla",
             "La Oreja de Van Gogh",
@@ -4004,16 +3747,13 @@ export const festivals = [{
             "Underwallace",
             "Iskender",
             "Blue Vermus"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-05-at-4-14-08-pm-1-e1696537026122-1200x675.png"
+        ]
     },
-    "Puro Latino Sevilla": {
+    {
         "name": "Puro Latino Sevilla",
-        "date": "20240704",
-        "location": "Seville, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/puro-latino-sevilla-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-10-32-15am-e1699457680530-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Mora",
             "Bryant Myers",
@@ -4021,30 +3761,24 @@ export const festivals = [{
             "RVFV",
             "Mike Morato",
             "Raul Clyde"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-10-32-15am-e1699457680530-1200x675.png"
+        ]
     },
-    "Granca Life Fest": {
+    {
         "name": "Granca Life Fest",
-        "date": "20240704",
-        "location": "Las Palmas, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/granca-life-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/screen-shot-2023-02-13-at-7-25-56-am-e1676291236706-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Robbie Williams",
             "Pedro Cap\u00f3",
             "Pedro Pastor"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/screen-shot-2023-02-13-at-7-25-56-am-e1676291236706-1200x675.png"
+        ]
     },
-    "R\u00edo Babel": {
+    {
         "name": "R\u00edo Babel",
-        "date": "20240704",
-        "location": "Madrid, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/rio-babel-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/riobabel2019_c-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Juanes",
             "Andr\u00e9s Calamaro",
@@ -4054,16 +3788,13 @@ export const festivals = [{
             "Cardellino",
             "Akriila",
             "Morochos"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/riobabel2019_c-1200x675.jpg"
+        ]
     },
-    "Vida Festival": {
+    {
         "name": "Vida Festival",
-        "date": "20240704",
-        "location": "Vilanova i la Geltr\u00fa, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/vida-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-11-48-pm-e1696367655699-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Vance Joy",
             "Ty Segall",
@@ -4097,16 +3828,13 @@ export const festivals = [{
             "Nacho Ruiz",
             "Tali Carreto",
             "Red Bananna"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/screenshot-2023-10-03-at-5-11-48-pm-e1696367655699-1200x675.png"
+        ]
     },
-    "Weekend Beach Festival": {
+    {
         "name": "Weekend Beach Festival",
-        "date": "20240704",
-        "location": "Torre Del Mar, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/weekend-beach-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-13-at-11-38-24am-e1702485594913-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Europe",
             "La Pegatina",
@@ -4115,16 +3843,13 @@ export const festivals = [{
             "Gon\u00e7alo",
             "Luis Muriel",
             "Vilu Gontero"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-13-at-11-38-24am-e1702485594913-1200x675.png"
+        ]
     },
-    "PortAmerica": {
+    {
         "name": "PortAmerica",
-        "date": "20240704",
-        "location": "Caldas de Reis, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/portamerica-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/400602223_871110824407019_1888756102468703377_n-e1701811787947-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Vetusta Morla",
             "Xoel L\u00f3pez",
@@ -4135,16 +3860,13 @@ export const festivals = [{
             "Guadi Galego",
             "Mondra",
             "Galician Army"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/400602223_871110824407019_1888756102468703377_n-e1701811787947-1200x675.jpg"
+        ]
     },
-    "Salinas Sound Festival": {
+    {
         "name": "Salinas Sound Festival",
-        "date": "20240705",
-        "location": "Roquetas de Mar, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/salinas-sound-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/424667068_1372461626991251_5770800708690094919_n-e1711219754482-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Lola \u00cdndigo",
             "Maria Becerra",
@@ -4164,16 +3886,13 @@ export const festivals = [{
             "Miriam Amat",
             "Ernesto Zapata",
             "Radu"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/424667068_1372461626991251_5770800708690094919_n-e1711219754482-1200x675.jpg"
+        ]
     },
-    "Huercasa Country Festival": {
+    {
         "name": "Huercasa Country Festival",
-        "date": "20240705",
-        "location": "Segovia, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/huercasa-country-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/424741707_945651466921724_1418714188461452878_n-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Kaitlin Butts",
             "Myron Elkins",
@@ -4181,16 +3900,13 @@ export const festivals = [{
             "Jenny Don't and the Spurs",
             "Jarrod Dickenson",
             "Jo & Swiss Knife"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/03/424741707_945651466921724_1418714188461452878_n-1200x675.jpg"
+        ]
     },
-    "Mad Cool Festival": {
+    {
         "name": "Mad Cool Festival",
-        "date": "20240710",
-        "location": "Madrid, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/mad-cool-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/07/mad-cool-2022-featured-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Dua Lipa",
             "The Smashing Pumpkins",
@@ -4213,16 +3929,13 @@ export const festivals = [{
             "Kid Francescoli",
             "Parra for Cuva",
             "Claudia Le\u00f3n"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/07/mad-cool-2022-featured-1200x675.jpg"
+        ]
     },
-    "Festival Cru\u00eflla": {
+    {
         "name": "Festival Cru\u00eflla",
-        "date": "20240710",
-        "location": "Barcelona, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/festival-cruilla-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/11/cruillafestival-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Trueno",
             "31 FAM",
@@ -4236,16 +3949,13 @@ export const festivals = [{
             "Love Yi",
             "Maria Blaya",
             "Sila Lua"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/11/cruillafestival-1200x675.jpg"
+        ]
     },
-    "Pirata Beach Fest": {
+    {
         "name": "Pirata Beach Fest",
-        "date": "20240710",
-        "location": "Valencia, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/pirata-rock-beach-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-14-at-8-27-29am-e1702560516928-1200x675.png",
+        "country": "Spain",
         "artists": [
             "La Plazuela",
             "Chambao",
@@ -4256,16 +3966,13 @@ export const festivals = [{
             "Do\u00f1a Manteca",
             "Lemot",
             "Attica"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/screenshot-2023-12-14-at-8-27-29am-e1702560516928-1200x675.png"
+        ]
     },
-    "Bilbao BBK Live": {
+    {
         "name": "Bilbao BBK Live",
-        "date": "20240711",
-        "location": "Bilbao, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/bilbao-bbk-live-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/01/bilbaobbk2018-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Air",
             "Cormac",
@@ -4294,16 +4001,13 @@ export const festivals = [{
             "The Prodigy",
             "Alba Reche",
             "Martin Urrutia"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2018/01/bilbaobbk2018-1200x675.jpg"
+        ]
     },
-    "Motorbeach": {
+    {
         "name": "Motorbeach",
-        "date": "20240711",
-        "location": "Soria, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/motorbeach-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/motorbeach-2023_edited-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Los DelTonos",
             "Dr. Feelgood",
@@ -4311,16 +4015,13 @@ export const festivals = [{
             "Arnau & The Honky Tonk Losers",
             "Whiskey David DJ",
             "Deallen DJ"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/motorbeach-2023_edited-1200x675.jpg"
+        ]
     },
-    "Planeta Sound": {
+    {
         "name": "Planeta Sound",
-        "date": "20240712",
-        "location": "Ponferrada, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/planeta-sound-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/planeta-sound-2023-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Dani Fern\u00e1ndez",
             "La La Love You",
@@ -4329,16 +4030,13 @@ export const festivals = [{
             "Ma\u00f1ana Viernes",
             "DriDri DJ",
             "Dani Arg\u00fc"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/02/planeta-sound-2023-1200x675.jpg"
+        ]
     },
-    "BBF Madrid": {
+    {
         "name": "BBF Madrid",
-        "date": "20240714",
-        "location": "Madrid, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/bbf-madrid-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/bbf-festival-2024-featured-e1713209490374-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Armin van Buuren",
             "Claptone",
@@ -4351,31 +4049,25 @@ export const festivals = [{
             "DJ Nano",
             "Gon\u00e7alo",
             "Joyse"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/04/bbf-festival-2024-featured-e1713209490374-1200x675.jpg"
+        ]
     },
-    "Dantz Festival": {
+    {
         "name": "Dantz Festival",
-        "date": "20240715",
-        "location": "San Sebasti\u00e1n, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/dantz-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/05/card_ncayast-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Ke Lepo",
             "Lluch",
             "Elena Barker",
             "Miqkael"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/05/card_ncayast-1200x675.jpg"
+        ]
     },
-    "FIB Benic\u00e0ssim": {
+    {
         "name": "FIB Benic\u00e0ssim",
-        "date": "20240718",
-        "location": "Benic\u00e0ssim, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/fib-benicassim-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/03/10765-card-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Black Eyed Peas",
             "The Libertines",
@@ -4402,16 +4094,13 @@ export const festivals = [{
             "TAAO",
             "Maadraassoo",
             "Ley DJ"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/03/10765-card-1200x675.jpg"
+        ]
     },
-    "Puro Latino Torremolinos": {
+    {
         "name": "Puro Latino Torremolinos",
-        "date": "20240719",
-        "location": "Torremolinos, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/puro-latino-torremolinos-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-11-09-04am-e1699459874427-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Anuel AA",
             "Morad",
@@ -4420,16 +4109,13 @@ export const festivals = [{
             "RVFV",
             "Blessd",
             "Bryant Myers"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-11-09-04am-e1699459874427-1200x675.png"
+        ]
     },
-    "Tsunami Xix\u00f3n Festival": {
+    {
         "name": "Tsunami Xix\u00f3n Festival",
-        "date": "20240719",
-        "location": "Gij\u00f3n, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/tsunami-xixon-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/tsunami-xixon-festival-2024-featured-e1715609986342-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Royal Blood",
             "Descendents",
@@ -4442,16 +4128,13 @@ export const festivals = [{
             "Catalina Grande Pi\u00f1\u00f3n Peque\u00f1o",
             "Rojo2",
             "Tiburona"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/tsunami-xixon-festival-2024-featured-e1715609986342-1200x675.jpg"
+        ]
     },
-    "Puro Latino El Puerto de Santa Mar\u00eda": {
+    {
         "name": "Puro Latino El Puerto de Santa Mar\u00eda",
-        "date": "20240725",
-        "location": "Cadiz, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/puro-latino-el-puerto-de-santa-maria-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-11-25-23am-e1699460831176-1200x675.png",
+        "country": "Spain",
         "artists": [
             "Maluma",
             "Manuel Turizo",
@@ -4461,16 +4144,13 @@ export const festivals = [{
             "Maria Becerra",
             "Cris MJ",
             "Vilu Gontero"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/11/screenshot-2023-11-08-at-11-25-23am-e1699460831176-1200x675.png"
+        ]
     },
-    "Low Festival": {
+    {
         "name": "Low Festival",
-        "date": "20240726",
-        "location": "Benidorm, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/low-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/396732406_877384613744325_6613282331707882835_n-e1704466288377-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Pixies",
             "Amaral",
@@ -4495,16 +4175,13 @@ export const festivals = [{
             "Lola Bozzano",
             "Peredius",
             "Miau"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/396732406_877384613744325_6613282331707882835_n-e1704466288377-1200x675.jpg"
+        ]
     },
-    "Monegros Desert Festival": {
+    {
         "name": "Monegros Desert Festival",
-        "date": "20240727",
-        "location": "Fraga, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/monegros-desert-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/380862615_835544564609020_3924783812479312754_n-e1704474550342-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Chase & Status",
             "Natos y Waor",
@@ -4661,32 +4338,26 @@ export const festivals = [{
             "Tortu",
             "VIkbass",
             "Zerotonine"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/380862615_835544564609020_3924783812479312754_n-e1704474550342-1200x675.jpg"
+        ]
     },
-    "Arenal Sound": {
+    {
         "name": "Arenal Sound",
-        "date": "20240730",
-        "location": "Burriana, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/arenal-sound-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/arenal-sound-2024-featured-e1715180814297-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Recycled J",
             "Lia Kali",
             "DJ Nano",
             "Nadal015",
             "Carlittos"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/05/arenal-sound-2024-featured-e1715180814297-1200x675.jpg"
+        ]
     },
-    "Dreambeach Villaricos": {
+    {
         "name": "Dreambeach Villaricos",
-        "date": "20240801",
-        "location": "Retamar, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/dreambeach-villaricos-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/11237-card-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Gordo",
             "Nico Moreno",
@@ -4709,16 +4380,13 @@ export const festivals = [{
             "Muriel",
             "Rasco",
             "Speaker Reality"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2020/04/11237-card-1200x675.jpg"
+        ]
     },
-    "Prestoso Fest": {
+    {
         "name": "Prestoso Fest",
-        "date": "20240801",
-        "location": "Las Barzaniellas, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/prestoso-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406483581_1086822775631568_5269319150328180183_n-e1704484830147-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Los Bitchos",
             "Nacho Vegas",
@@ -4740,16 +4408,13 @@ export const festivals = [{
             "Mediocre",
             "La Viuda De Angel\u00edn",
             "Chame"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/406483581_1086822775631568_5269319150328180183_n-e1704484830147-1200x675.jpg"
+        ]
     },
-    "Santander Music": {
+    {
         "name": "Santander Music",
-        "date": "20240802",
-        "location": "Santander, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/santander-music-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/santander-music-2024-featured-e1702476152492-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Mikel Izal",
             "Ginebras",
@@ -4759,16 +4424,13 @@ export const festivals = [{
             "Malm\u00f6 040",
             "pablopablo",
             "Silo\u00e9"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/santander-music-2024-featured-e1702476152492-1200x675.jpg"
+        ]
     },
-    "AbejaRock": {
+    {
         "name": "AbejaRock",
-        "date": "20240802",
-        "location": "B\u00e9jar, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/abejarock-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/409670272_853991580061508_1678953720472840028_n-e1705691053174-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Koma",
             "Boikot",
@@ -4782,16 +4444,13 @@ export const festivals = [{
             "Diazepam",
             "Diego Carde\u00f1a",
             "Catalina Grande Pi\u00f1\u00f3n Peque\u00f1o"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/409670272_853991580061508_1678953720472840028_n-e1705691053174-1200x675.jpg"
+        ]
     },
-    "Medusa Festival": {
+    {
         "name": "Medusa Festival",
-        "date": "20240807",
-        "location": "Val\u00e8ncia, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/medusa-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/372918251_834484228035564_7778756684940834561_n-e1704547626761-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "3 Are Legend",
             "6EJOU",
@@ -4912,16 +4571,13 @@ export const festivals = [{
             "R.Flow",
             "Robert Morr",
             "Sergei Rez"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/372918251_834484228035564_7778756684940834561_n-e1704547626761-1200x675.jpg"
+        ]
     },
-    "Sonorama Ribera": {
+    {
         "name": "Sonorama Ribera",
-        "date": "20240807",
-        "location": "Aranda de Duero, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/sonorama-ribera-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/sonorama-ribera-2024-featured-e1702917528742-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Los Planetas",
             "Aiko El Grupo",
@@ -4955,16 +4611,13 @@ export const festivals = [{
             "Stanz DJ",
             "Popi & Sito",
             "Protagonistas DJs"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/12/sonorama-ribera-2024-featured-e1702917528742-1200x675.jpg"
+        ]
     },
-    "Leyendas del Rock": {
+    {
         "name": "Leyendas del Rock",
-        "date": "20240807",
-        "location": "Villena, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/leyendas-del-rock-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/376421119_859595572202648_5350096808578661968_n-e1697655974704-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Amon Amarth",
             "Behemoth",
@@ -4981,16 +4634,13 @@ export const festivals = [{
             "Opera Magna",
             "Rise to Fall",
             "Obscure"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2023/10/376421119_859595572202648_5350096808578661968_n-e1697655974704-1200x675.jpg"
+        ]
     },
-    "Brunch Electronik Festival": {
+    {
         "name": "Brunch Electronik Festival",
-        "date": "20240809",
-        "location": "Barcelona, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/brunch-electronik-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/408196120_757219183101139_5277628734056543484_n-e1705694329750-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Adam Ten",
             "BIIA",
@@ -5023,16 +4673,13 @@ export const festivals = [{
             "Palms Trax",
             "R\u00f6yksopp",
             "Silvie Loto"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/408196120_757219183101139_5277628734056543484_n-e1705694329750-1200x675.jpg"
+        ]
     },
-    "Aquasella Festival": {
+    {
         "name": "Aquasella Festival",
-        "date": "20240814",
-        "location": "Cangas de On\u00eds, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/aquasella-festival-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/398601303_865208984960495_1082711205905069992_n-e1704566888745-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Amber Broos",
             "Anna Tur",
@@ -5047,32 +4694,26 @@ export const festivals = [{
             "Richi Risco",
             "Jairo Beltrami",
             "JL Delgado"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/398601303_865208984960495_1082711205905069992_n-e1704566888745-1200x675.jpg"
+        ]
     },
-    "Cooltural Fest": {
+    {
         "name": "Cooltural Fest",
-        "date": "20240815",
-        "location": "Almer\u00eda, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/cooltural-fest-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/408108866_903230297831229_2550225750598227143_n-e1704567593538-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Despistaos",
             "Ciudad Jara",
             "Merino",
             "L.A.",
             "Nunatak"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/408108866_903230297831229_2550225750598227143_n-e1704567593538-1200x675.jpg"
+        ]
     },
-    "Rototom Sunsplash": {
+    {
         "name": "Rototom Sunsplash",
-        "date": "20240816",
-        "location": "Benicassim, Spain",
-        "country": "Spain",
         "url": "https://www.jambase.com/festival/rototom-sunsplash-2024",
-        "description": "",
+        "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/398076984_890614902421135_8616393041676403649_n-e1704575136652-1200x675.jpg",
+        "country": "Spain",
         "artists": [
             "Alpha Blondy",
             "Mo'Kalamity",
@@ -5089,7 +4730,6 @@ export const festivals = [{
             "Griffi",
             "TNT Sound",
             "Little Lion Sound"
-        ],
-        "image_url": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,dpr_1.0/w_auto:breakpoints_85_850_10_10:145/jb7production-uploads/2024/01/398076984_890614902421135_8616393041676403649_n-e1704575136652-1200x675.jpg"
+        ]
     }
-}]
+]
