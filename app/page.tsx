@@ -115,7 +115,7 @@ export default function Home() {
           <div className="flex flex-col items-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white p-6 rounded-lg shadow-lg">
             <img src="/Spotaplaylist.png" alt="Spot a Playlist" className="mb-4 w-full max-w-md h-auto" />
             <p className="text-lg mb-4">
-              Discover your next favorite playlist based on a festival around you!
+              Discover Your Next Favorite Playlist Based On A Festival !
             </p>
             {session ? (
               <p className="text-green-600 font-semibold px-4 py-2 rounded-md shadow-md">
