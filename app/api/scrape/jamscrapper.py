@@ -26,10 +26,6 @@ def extract_festival_details(festival_url, driver):
     festival_soup = BeautifulSoup(driver.page_source, "html.parser")
 
     try:
-        if not festival_soup.select_one("ul.list-inline.list-festival-lineup"):
-            print(f"Lineup element not found for festival: {festival_url}")
-            return "", []
-
         script_tag = festival_soup.find("script", type="application/ld+json")
         if script_tag:
             festival_json = script_tag.string
@@ -46,8 +42,8 @@ def extract_festival_details(festival_url, driver):
                 lineup.append(artist_name)
 
         return description, lineup
-    except json.JSONDecodeError:
-        print(f"Error parsing JSON-LD data for festival: {festival_url}")
+    except (json.JSONDecodeError, AttributeError) as e:
+        print(f"Error parsing festival details for festival: {festival_url} - {e}")
         return "", []
 
 def scrape_festival_page(url, driver):
@@ -63,23 +59,19 @@ def scrape_festival_page(url, driver):
     soup = BeautifulSoup(driver.page_source, "html.parser")
     return soup.find_all("li", class_="jbshow")
 
-def get_next_page_url(driver):
-    try:
-        next_button = driver.find_element(By.CSS_SELECTOR, "a[aria-label='Next']")
-        return next_button.get_attribute("href")
-    except NoSuchElementException:
-        return None
-
 if __name__ == "__main__":
     festivals = {}
     driver = webdriver.Chrome()
 
     try:
         for base_url, country in base_urls.items():
-            current_url = base_url
-
-            while current_url:
+            page_num = 1
+            while True:
+                current_url = f"{base_url}/page/{page_num}"
                 festival_items = scrape_festival_page(current_url, driver)
+                
+                if not festival_items:
+                    break
                 
                 for festival_item in festival_items:
                     try:
@@ -107,7 +99,8 @@ if __name__ == "__main__":
                         print(f"Error processing festival item: {e}")
                         continue
                 
-                current_url = get_next_page_url(driver)
+                page_num += 1
+                print(f"Moving to next page: {current_url}")
                 time.sleep(2)  # Add delay to avoid overloading the server
 
     finally:
@@ -115,4 +108,3 @@ if __name__ == "__main__":
 
     with open("jambase_festivals.json", 'w') as json_file:
         json.dump(festivals, json_file, indent=4)
-        

@@ -2,7 +2,7 @@
 import { signIn, useSession } from "next-auth/react";
 import { createPlaylist as createEmptyPlaylist } from "./playlists";
 import { getArtistID } from "./artist";
-import { jambase_festivals } from './data/jambase_festivals2';
+import { jambase_festivals } from './data/jambase_festivals';
 import { getTracks } from "./tracks";
 import { postTracks } from "./trackstoplaylist";
 import { useState, useEffect } from 'react';
