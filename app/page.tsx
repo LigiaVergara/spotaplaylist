@@ -20,7 +20,6 @@ export default function Home() {
   const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0]); // Default to today
 
   useEffect(() => {
-    // Extract unique countries from festivals array
     const countriesSet = new Set(jambase_festivals.map((festival: any) => festival.country));
     const countriesArray = Array.from(countriesSet);
     setUniqueCountries(countriesArray);
@@ -58,7 +57,6 @@ export default function Home() {
       setIsLoading(true);
       await createFestivalPlaylist(festival.artists, festival.name);
       setIsLoading(false);
-      // Optionally reset selectedPlaylistIndex after creation
       setSelectedPlaylistIndex(null);
     }
   };
