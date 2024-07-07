@@ -2,11 +2,10 @@ import { getSession } from "next-auth/react";
 
 export async function postTracks(
   user: any,
-  uris: string[],  // Array of track URIs to be added
+  uris: string[],  
   playlistId: string
 ): Promise<any> {
   try {
-    // Retrieve the session information using Next.js' getSession
     const session = await getSession(user);
 
     if (!session) {
@@ -15,16 +14,13 @@ export async function postTracks(
 
     const accessToken = (session.user as any).accessToken;
 
-    // Construct the URL for adding tracks to the playlist
     const url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks`;
 
-    // Prepare the body of the request
     const body = JSON.stringify({
       uris: uris,
-      position: 0  // Optionally specify the position where to add the tracks
+      position: 0  
     });
 
-    // Make the POST request to add tracks to the playlist
     const response = await fetch(url, {
       method: 'POST',
       headers: {

@@ -7,14 +7,12 @@ from bs4 import BeautifulSoup
 import json
 import time
 
-# Base URLs for JamBase festivals pages with corresponding country names
 base_urls = {
     'https://www.jambase.com/festivals/de': 'Germany',
     'https://www.jambase.com/festivals/nl': 'Netherlands',
     'https://www.jambase.com/festivals/es': 'Spain'
 }
 
-# Function to extract festival details from the festival page
 def extract_festival_details(festival_url, driver):
     driver.get(festival_url)
     try:
@@ -28,12 +26,10 @@ def extract_festival_details(festival_url, driver):
     festival_soup = BeautifulSoup(driver.page_source, "html.parser")
 
     try:
-        # Check if the expected element is present
         if not festival_soup.select_one("ul.list-inline.list-festival-lineup"):
             print(f"Lineup element not found for festival: {festival_url}")
             return "", []
 
-        # Parse JSON-LD data for description
         script_tag = festival_soup.find("script", type="application/ld+json")
         if script_tag:
             festival_json = script_tag.string
@@ -42,7 +38,6 @@ def extract_festival_details(festival_url, driver):
         else:
             description = ""
 
-        # Extract lineup
         lineup = []
         lineup_list = festival_soup.find("ul", class_="list-inline list-festival-lineup")
         if lineup_list:
@@ -55,7 +50,6 @@ def extract_festival_details(festival_url, driver):
         print(f"Error parsing JSON-LD data for festival: {festival_url}")
         return "", []
 
-# Function to scrape a single page of festivals
 def scrape_festival_page(url, driver):
     driver.get(url)
     try:
@@ -69,7 +63,6 @@ def scrape_festival_page(url, driver):
     soup = BeautifulSoup(driver.page_source, "html.parser")
     return soup.find_all("li", class_="jbshow")
 
-# Function to get the URL for the next page
 def get_next_page_url(driver):
     try:
         next_button = driver.find_element(By.CSS_SELECTOR, "a[aria-label='Next']")
@@ -77,7 +70,6 @@ def get_next_page_url(driver):
     except NoSuchElementException:
         return None
 
-# Main function
 if __name__ == "__main__":
     festivals = {}
     driver = webdriver.Chrome()

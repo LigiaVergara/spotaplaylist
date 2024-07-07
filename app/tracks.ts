@@ -6,13 +6,10 @@ export async function getTracks(
   topN: number = 1
 ): Promise<any> {
     try {
-        // Retrieve the session information using Next.js' getSession
         const session = await getSession(user);
 
-        // Construct the URL for fetching top tracks of the artist
         const url =`https://api.spotify.com/v1/artists/${artistID}/top-tracks?market=DE&limit=3`;
 
-        // Fetch the top tracks from Spotify API
         const response = await fetch(url, {
             headers: {
                 Authorization: `Bearer ${(session?.user as any).accessToken}`,
